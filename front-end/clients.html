@@ -1,0 +1,746 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="google-site-verification" content="Cip5KMZVAHRiVh85wHV51jOKGPeKq3LIN9G_YfYxwT0" />
+    <title>Robinzone</title>
+        <!-- CSS -->
+    <!-- <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon"/> -->
+    <link href="css/style.css" rel="stylesheet" media="screen">
+    <link href="css/animate.css" rel="stylesheet" media="screen">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/all.css" integrity="sha384-3AB7yXWz4OeoZcPbieVW64vVXEwADiYyAEhwilzWsLw+9FgqpyjjStpPnpBO8o8S" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/jquery.fancybox.min.css" />
+    <!-- END OF CSS -->
+
+    <!-- SCRIPT -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.js"></script>
+    <!-- END OF SCRIPT -->
+<body>
+    <header>
+        <div class="container-fluid header_background">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-7 col-md-7 col-sm-4 col-xs-4">
+                        <div class="header__local">
+                            <div class="headerCover header__localization">               
+                                <div id="lang-menu">
+                                    <div>RU</div>
+                                    <ul>
+                                      <li>RU</li>
+                                      <li>EN</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="header__phone">
+                                <i class="fas fa-phone"></i>
+                                <a href="#" class="header__phone_number">+38 067 99 88 777</a>
+                            </div>
+                            <div class="header__mail">
+                                <i class="far fa-envelope"></i>
+                                <a href="#" class="header__mail_text">robinzone@gmail.com</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-5 col-md-5 col-sm-8 col-xs-8">
+                        <div class="headerCover-2">
+                            <div class="personalCabinet__enter">
+                                <i class="far fa-user"></i><a href="#" class="header__enter_text">Вход</a>
+                            </div>
+                            <div class="header__registration">
+                                <i class="far fa-clipboard"></i><a href="#" class="header__registration_text">Регистрация</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid border_line">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                        <div class="header__logo">
+                            <a href="index.html" class="logo"><img src="img/logo.png" class="header__logoImg" alt="#"></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+                        <div class="header__personalCabinet">
+                            <a href="#" class="personalCabinet_title">Личный кабинет </a>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+                        <div class="header__basketSearchCover">
+                            <div class="cntr">
+                                <div class="cntr-innr">
+                                    <label class="search" for="inpt_search">
+                                        <input id="inpt_search" type="text" />
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="basket">
+                                <a href="#" class="header__basket"><img src="img/basket.jpg" class="header__basket_img" alt="#"></a>
+                                <div class="basket__details">
+                                    <div class="basket__item">
+                                        <div class="basket__item_block">
+                                            <img src="img/item1.png" class="basket__item_img" alt="#">
+                                        </div>
+                                        <div class="item_description">
+                                            <i class="far fa-times-circle"></i>
+                                            <a href="#" class="item__title">Кофта “Звезды”</a>
+                                            <p class="item__model"><span>Модель</span><span> 273</span></p>
+                                            <p class="item__quantity"><span>Колличество:</span><span> 1</span></p>
+                                            <p class="item__color"><span>Цвет: </span><span> светло-коричневый, меланж</span></p>
+                                            <p class="item__size"><span>Размер: </span> <span> 122</span></p>
+                                            <p class="item__price"><span>273 </span><span>грн</span></p>
+                                        </div>
+                                    </div>
+                                    <div class="basket__item">
+                                        <div class="basket__item_block">
+                                            <img src="img/item2.png" class="basket__item_img" alt="#">
+                                        </div>
+                                        <div class="item_description">
+                                            <i class="far fa-times-circle"></i>
+                                            <a href="#" class="item__title">Кофта “Звезды”</a>
+                                            <p class="item__model"><span>Модель</span><span> 273</span></p>
+                                            <p class="item__quantity"><span>Колличество:</span><span> 1</span></p>
+                                            <p class="item__color"><span>Цвет: </span><span> светло-коричневый, меланж</span></p>
+                                            <p class="item__size"><span>Размер: </span> <span> 122</span></p>
+                                            <p class="item__price"><span>273 </span><span>грн</span></p>
+                                        </div>
+                                    </div>
+                                    <div class="basket__sum">
+                                        <span class="basket__sum_title">Итого</span>
+                                        <span class="basket__sum_number"> 750грн</span>
+                                    </div>
+                                        <a href="#" class="basket__order_button">Оформить заказ</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <nav class="itemPageNav">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                        <div class="mobile">
+                            <a class="mobile-menu-toggle js-toggle-menu hamburger-menu" href="#">
+                                <span class="menu-item"></span>
+                                <span class="menu-item"></span>
+                                <span class="menu-item"></span>
+                            </a>
+                            <nav class="mobile-nav-wrap">
+                                <ul class="mobile-header-nav">
+                                    <li><a href="#">главная</a></li>
+                                    <li><a href="#">о нас</a></li>
+                                    <li><a href="#">интернет-магазин</a></li>
+                                    <li><a href="#">опт</a></li>
+                                    <li><a href="#">эксклюзив</a></li>
+                                    <li><a href="#">представительства</a></li>
+                                    <li><a href="#">распродажа</a></li>
+                                    <li><a href="#">контакты</a></li>
+                                </ul>
+                            </nav>
+                        </div>
+                        <div class="naigation">
+                            <ul class="navigation__block">
+                                <li class="navigation__list"><a href="#" class="navigation__list_title">главная</a></li>
+                                <li class="navigation__list"><a href="#" class="navigation__list_title">о нас</a></li>       
+                                <li class="navigation__list"><a href="#" class="navigation__list_title navigation__list_style">интернет-магазин</a></li>       
+                                <li class="navigation__list"><a href="#" class="navigation__list_title">опт</a></li>
+                                <li class="navigation__list"><a href="#" class="navigation__list_title navigation__list_style">эксклюзив</a></li>          
+                                <li class="navigation__list"><a href="#" class="navigation__list_title">представительства</a></li>       
+                                <li class="navigation__list"><a href="#" class="navigation__list_title navigation__list_style">распродажа</a></li>       
+                                <li class="navigation__list"><a href="#" class="navigation__list_title">контакты</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <section>
+        <div class="container-fluid breadCrumbsBorder">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                        <div class="breadCrumbs">
+                           <ul class="breadCrumbs__block">
+                               <li itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb" class="breadCrumbs__list">
+                                   <a href="/" itemprop="url"  class="breadCrumbs__item">
+                                       <span itemprop="title">Главная</span>
+                                   </a>
+                               </li>
+                               <li itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb" class="breadCrumbs__list">
+                                   <a href="#" itemprop="url" class="breadCrumbs__item">
+                                       <span itemprop="title">Клиентам</span>
+                                   </a>
+                               </li>
+                           </ul>
+                       </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+<!-- FABRICS MODALS -->
+<div id="overlay4">
+     <div class="fabric_close_cover">
+        <span id="modal_close_fabric"><i class="fa fa-times" aria-hidden="true"></i></span>
+        <p class="fabric_close_title">Интерлок</p>
+        <img src="img/fabric_close_photo.png" alt="#" class="fabric_close_img">
+        <p class="fabric_close_text">Интерлочное (двуластичное) переплетение представляет собой сочетание двух ластиков, ввязанных один в другой. Интерлок имеет совершенно уникальные свойства – он плотный и к тому же с обеих сторон очень гладкий. Он отлично впитывает влагу и пот. Полотно отличается значительной упругостью, хорошими теплозащитными свойствами, средней растяжимостью, имеет высокую прочность. Интерлочное переплетение используется для производства бельевого трикотажа и верхних изделий как детского, так и взрослого ассортимента. Стирать можно его вручную или же в стиральной машине, при температуре не более 40С.</p>
+    </div>
+</div>
+
+    <section>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-12 clientsBorderStyle">
+                    <p class="clientsTitle">Клиентам</p>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                    <div class="itemTabs_cover clientTabs_cover" id="itemTabs_cover">
+                        <ul class="itemTabs_block itemTabs_block2" id="itemTabs_block">
+                            <li class="itemTabs_list active" id="defaultOpen" onclick="openBlock('fabricTypes', this)">Виды полотен</li>
+                            <li class="itemTabs_list" onclick="openBlock('fabricSizes', this)">таблица размеров</li>
+                            <li class="itemTabs_list" onclick="openBlock('fabricCare', this)">рекомендации по уходу</li>
+                            <li class="itemTabs_list slideInit" onclick="openBlock('fabricQuality', this)">Качество изделий</li>
+                        </ul>
+                        <div class="itemTabs_content_one itemTabs_content" id="fabricTypes">
+                            <div class="fabricTypes">
+                                <div class="fabricTypes_general">
+                                    <div class="fabricTypes_imgCover">
+                                        <img src="img/color3.png" alt="#" class="fabricTypes_img">
+                                    </div>
+                                </div>
+                                <div class="fabricTypes_general">
+                                    <div class="fabricTypes_imgCover">
+                                        <img src="img/color1.png" alt="#" class="fabricTypes_img">
+                                    </div>
+                                </div>
+                                <div class="fabricTypes_general">
+                                    <div class="fabricTypes_imgCover">
+                                        <img src="img/color2.png" alt="#" class="fabricTypes_img">
+                                    </div>
+                                </div>
+                                <div class="fabricTypes_general">
+                                    <div class="fabricTypes_imgCover">
+                                        <img src="img/color3.png" alt="#" class="fabricTypes_img">
+                                    </div>
+                                </div>
+                                <div class="fabricTypes_general">
+                                    <div class="fabricTypes_imgCover">
+                                        <img src="img/color4.png" alt="#" class="fabricTypes_img">
+                                    </div>
+                                </div>
+                                <div class="fabricTypes_general">
+                                    <div class="fabricTypes_imgCover">
+                                        <img src="img/color5.png" alt="#" class="fabricTypes_img">
+                                    </div>
+                                </div>
+                                <div class="fabricTypes_general">
+                                    <div class="fabricTypes_imgCover">
+                                        <img src="img/color6.png" alt="#" class="fabricTypes_img">
+                                    </div>
+                                </div>
+                                <div class="fabricTypes_general">
+                                    <div class="fabricTypes_imgCover">
+                                        <img src="img/color7.png" alt="#" class="fabricTypes_img">
+                                    </div>
+                                </div>
+                                <div class="fabricTypes_general">
+                                    <div class="fabricTypes_imgCover">
+                                        <img src="img/color8.png" alt="#" class="fabricTypes_img">
+                                    </div>
+                                </div>
+                                <div class="fabricTypes_general">
+                                    <div class="fabricTypes_imgCover">
+                                        <img src="img/color9.png" alt="#" class="fabricTypes_img">
+                                    </div>
+                                </div>
+                                <div class="fabricTypes_general">
+                                    <div class="fabricTypes_imgCover">
+                                        <img src="img/color2.png" alt="#" class="fabricTypes_img">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="itemTabs_content_two itemTabs_content" id="fabricSizes">
+                            <div class="fabricSizes">
+                                <div class="fabricSizesTable_cover">
+                                    <table class="fabricSizesTable">
+                                        <tr class="fabricSizesTable_caption">
+                                            <td>Возраст</td>
+                                            <td>Размер изделия (рост, см)</td>
+                                            <td>Обхват груди (см)</td>
+                                            <td>Обхват груди (см)</td>
+                                        </tr>
+                                        <tr>
+                                            <td> 0 мес</td>
+                                            <td> 50</td>
+                                            <td> 40</td>
+                                            <td> 34</td>
+                                        </tr>
+                                        <tr>
+                                            <td> 1 мес</td>
+                                            <td> 56</td>
+                                            <td> 41</td>
+                                            <td> 37</td>
+                                        </tr>
+                                        <tr>
+                                            <td> 3 мес</td>
+                                            <td> 62</td>
+                                            <td> 42</td>
+                                            <td> 40</td>
+                                        </tr>
+                                        <tr>
+                                            <td> 5 мес</td>
+                                            <td> 68</td>
+                                            <td> 44</td>
+                                            <td> 43</td>
+                                        </tr>
+                                        <tr>
+                                            <td> 7 мес</td>
+                                            <td> 74</td>
+                                            <td> 45</td>
+                                            <td> 46</td>
+                                        </tr>
+                                        <tr>
+                                            <td> 9 мес</td>
+                                            <td> 80</td>
+                                            <td> 48</td>
+                                            <td> 46</td>
+                                        </tr>
+                                        <tr>
+                                            <td> 1 год </td>
+                                            <td> 86</td>
+                                            <td> 52</td>
+                                            <td> 49</td>
+                                        </tr>
+                                        <tr>
+                                            <td> 1.5 года</td>
+                                            <td> 92</td>
+                                            <td> 52</td>
+                                            <td> 50</td>
+                                        </tr>
+                                        <tr>
+                                            <td> 2 года</td>
+                                            <td> 98</td>
+                                            <td> 54</td>
+                                            <td> 51</td>
+                                        </tr>
+                                        <tr>
+                                            <td> 3 года</td>
+                                            <td> 104</td>
+                                            <td> 58</td>
+                                            <td> 52</td>
+                                        </tr>
+                                        <tr>
+                                            <td> 4 года</td>
+                                            <td> 110</td>
+                                            <td> 56</td>
+                                            <td> 53</td>
+                                        </tr>
+                                        <tr>
+                                            <td> 5 лет</td>
+                                            <td> 116</td>
+                                            <td> 58</td>
+                                            <td> 54</td>
+                                        </tr>
+                                       <tr>
+                                            <td> 6 лет</td>
+                                            <td> 122</td>
+                                            <td> 60</td>
+                                            <td> 55</td>
+                                        </tr>
+                                        <tr>
+                                            <td> 7 лет</td>
+                                            <td> 128</td>
+                                            <td> 62</td>
+                                            <td> 56</td>
+                                        </tr>
+                                        <tr>
+                                            <td> 8 лет</td>
+                                            <td> 134</td>
+                                            <td> 64</td>
+                                            <td> 57</td>
+                                        </tr>
+                                        <tr>
+                                            <td> 9 лет</td>
+                                            <td> 140</td>
+                                            <td> 67</td>
+                                            <td> 58</td>
+                                        </tr>
+                                        <tr>
+                                            <td> 10 лет</td>
+                                            <td> 146</td>
+                                            <td> 72</td>
+                                            <td> 59</td>
+                                        </tr>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="itemTabs_content_two itemTabs_content" id="fabricCare">
+                            <div class="fabricCare">
+                               <div class="fabricCare_cover">
+                                   <p class="fabricCare_content">Условия хранения: трикотажные изделия хранятся в сухих, чистых, хорошо вентилируемых помещениях при температуре от +5 до + 25С и относительной влажности воздуха от 60% до 65%, запрещается попадания прямого солнечного света.</p>
+                                   <ul class="fabricCare_block">
+                                        <li class="fabricCare_list">
+                                            <img src="img/care1.jpg" alt="#" class="fabricCare_list_img">
+                                            <span class="fabricCare_list_content">Стирать можна только при максимальной температуре 30ºС с нейтральными моющими средствами</span>
+                                        </li>
+                                        <li class="fabricCare_list">
+                                            <img src="img/care2.jpg" alt="#" class="fabricCare_list_img">
+                                            <span class="fabricCare_list_content">Отбеливать нельзя. Также нельзя использовать моющие средства, содержащие хлор и порошки с отбеливателями</span>
+                                        </li>
+                                        <li class="fabricCare_list">
+                                            <img src="img/care3.jpg" alt="#" class="fabricCare_list_img">
+                                            <span class="fabricCare_list_content">Гладить можно</span>
+                                        </li>
+                                        <li class="fabricCare_list">
+                                            <img src="img/care4.jpg" alt="#" class="fabricCare_list_img">
+                                            <span class="fabricCare_list_content">Сушить в стиральной машине или электрической сушке нельзя</span>
+                                        </li>
+                                        <li class="fabricCare_list">
+                                            <img src="img/care5.png" alt="#" class="fabricCare_list_img">
+                                            <span class="fabricCare_list_content">Сушить исделие нужно горизонтально</span>
+                                        </li>
+                                   </ul>
+                               </div>
+                            </div>
+                        </div>
+                        <div class="itemTabs_content_two itemTabs_content" id="fabricQuality">
+                            <div class="fabricQuality">
+                                <div class="fabricQuality_cover">
+                                    <div class="fabricQuality_cover_block">
+                                        <p class="fabricQuality_title">Качество продукции</p>
+                                        <div class="fabricQuality_content">
+                                            <p>Основной задачей нашей компании всегда было производство качественной детской одежды. Что же мы вкладываем в понятие качества? Прежде всего – абсолютную безопасность для здоровья ребенка, комфорт при надевании и носке, устойчивость цвета при многократной стирке, эстетичный внешний вид. Последний пункт предполагает, что одежда ТМ «СМИЛ» соответствует тенденциям в мире детской моды.</p>
+
+                                            <p>Качество готового изделия включает в себя качество сырья, покраски, покроя и пошива, используемой фурнитуры. Все эти показатели достигаются за счет качественных материалов, высокого уровня технологических процессов, правильных и точных конструкторских решений, современных дизайнерских разработок, профессионализма участников процесса производства и строгого контроля качества на всех его этапах. Если из этого перечня убрать что либо, можно сэкономить средства, но невозможно добиться высокого уровня качества.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-lg-6 col-md-6 col-sm-12 sol-xs-12">
+                                        <div class="fabricQuality_slider_blockCover">
+                                            <div class="regular slider fabricQuality_slider">
+                                                <div>
+                                                    <div class="certivicate_cover">
+                                                      <img src="img/certificate1.png" alt="#" class="certivicate_img">
+                                                    </div>
+                                                </div>
+                                               <div>
+                                                    <div class="certivicate_cover">
+                                                      <img src="img/certificate2.png" alt="#" class="certivicate_img">
+                                                    </div>
+                                                </div>
+                                                <div>
+                                                    <div class="certivicate_cover">
+                                                      <img src="img/certificate1.png" alt="#" class="certivicate_img">
+                                                    </div>
+                                                </div>
+                                                <div>
+                                                    <div class="certivicate_cover">
+                                                      <img src="img/certificate2.png" alt="#" class="certivicate_img">
+                                                    </div>
+                                                </div>
+                                                <div>
+                                                    <div class="certivicate_cover">
+                                                      <img src="img/certificate1.png" alt="#" class="certivicate_img">
+                                                    </div> 
+                                                </div>
+                                                <div>
+                                                    <div class="certivicate_cover">
+                                                      <img src="img/certificate2.png" alt="#" class="certivicate_img">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6 col-md-6 col-sm-12 sol-xs-12">
+                                        <div class="fabricQuality_cover_block2">
+                                            <p class="fabricQuality_title2">Отменное качество сырья</p>
+                                            <div class="fabricQuality_content2">
+                                                <p>Большое значение имеет качество пряжи, из которой вяжется полотно. Из дешевого и некачественного сырья не получится изготовить качественное полотно. Кроме того, важна плотность материала. Производители одежды платят за полотно по весу, а лекала, по которым кроят одежду, имеют геометрические параметры. За счет уменьшения эластичности можно сделать полотно менее плотным, чтобы сэкономить, однако качественное изделие из такого полотна не пошить.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="fabricQuality_content3">
+                                    <p>«СМИЛ» реализует свою продукцию преимущественно на территории Украины и России, однако при этом мы являемся европейски ориентированной компанией. Ставка на качество определила нашу философию и миссию – создавать экологически чистый продукт, который бы соответствовал принятым во всем мире нормам и стандартам безопасности для жизни и здоровья. Поскольку кожа малышей особенно нежна и чувствительно к внешним воздействиям, необходимым условием является отсутствие раздражения при контакте с кожей. ТМ «СМИЛ» гарантирует качество производимой продукции, используя для ее пошива только тот материал, который имеет сертификат Oeko-Tex® Standard 100 и маркировку «Доверие к текстилю», означающую, что такой текстиль не содержит какие-либо вредные или запрещенные вещества. Также это знак свидетельствует о том, что:</p>
+                                    <ul class="fabricQuality_contentBlock">
+                                        <li class="fabricQuality_content_list">трикотаж не имеет особенных или неприятных запахов;</li>
+                                        <li class="fabricQuality_content_list">имеет нейтральную реакцию, что соответствует pH человеческой кожи; </li>
+                                        <li class="fabricQuality_content_list">допустимое содержание пестицидов в волокнах;</li>
+                                        <li class="fabricQuality_content_list">не содержит ни один из 27 красителей, вызывающих онко- и аллергические заболевания;</li>
+                                        <li class="fabricQuality_content_list">в изделии не превышены требования по концентрации солей тяжелых металлов;</li>
+                                        <li class="fabricQuality_content_list">покраска устойчива по отношению к стирке, поту, трению и другим видам испытаний.</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="container-fluid subscribeCover">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-5 col-md-5 col-sm-5 col-xs-12">
+                        <div class="subscribe">
+                            <h3 class="subscribe__title">ПОДПИСАТЬСЯ <span class="subscribe__title_style">НА РАССЫЛКУ НОВОСТЕЙ</span></h3>
+                            <p class="subscribe__subTitle">введите свой адрес электронной почты и узнайте о последних новых продуктах и ​​рекламных акциях</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-7 col-md-7 col-sm-7 col-xs-12">
+                        <form class="subscribe__block_form">
+                            <input type="email" placeholder="E-mail" class="subscribe_input" required>
+                            <button class="subscribe_button" id="subscribe">Подписаться</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- MODAL FORM -->
+   
+    <div id="overlay">
+        <div id="modal_form">
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 in-touch-form">
+                    <div class="callbackBlock__form">
+                        <span id="modal_close"><i class="fa fa-times" aria-hidden="true"></i></span>
+                        <h3 class="modalForm__title">Напишите нам</h3>
+                        <p class="modalForm__subTitle">Или оставьте свои контактные данные и мы Вам перезвоним</p>
+                        <form method="post" class="modalForm__form">
+                            <input type="text"  placeholder="Ваше имя" class="modalForm__name" required>
+                            <input type="tel"  placeholder="Телефон" id="phone" class="modalForm__number" required>
+                            <input type="email"  placeholder="Ваш Email" name="filter-date" class="modalForm__mail" id="filter-date" required>
+                            <button id="gratitude" class="modalForm__button">Вызвать</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="overlay2">
+        <div id="gratitude_form">
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 in-touch-form">
+                    <div class="callbackBlock__form">
+                        <h3>Спасибо</h3>
+                        <p>Ваш запрос отправлен</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- END OF MODAL FORM -->
+    <section>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                    <div class="top_marker"><i class="fas fa-map-marker-alt"></i></div>
+                    <div id="map"></div>
+                    <div class="write_block wow pulse" data-wow-iteration="infinite">
+                        <div class="wrire_blockCover">
+                            <p class="write_us">Напишите нам</p>
+                            <p class="phone_us">Или хотите мы перезвоним вам</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="container-fluid footerBackgroundOne">
+            <div class="container">
+                <div class="row footerPadding">
+                    <div class="col-lg-3 col-md-4 col-sm-4 col-xs-12">
+                        <p class="contacts__title">Контакты</p>
+                        <ul class="contacts__block">
+                            <li class="contacts__list">г. Киев, ул. Кожемяцкая 20-А, <span class="exception">3 этаж, 4 офис</span></li>
+                            <li class="contacts__list contact_style">+38 097 99 88 777</li>
+                            <li class="contacts__list contact_style">robinzone@gmail.com</li>
+                            <li class="contacts__list contact_style">robinzone.com.ua</li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-2 col-md-4 col-sm-4 col-xs-12">
+                        <p class="information">Информация</p>
+                        <ul class="information__block">
+                            <li class="information__list"><a href="#">Про кампанию</a></li>
+                            <li class="information__list"><a href="#">Розница</a></li>
+                            <li class="information__list"><a href="#">Опт</a></li>
+                            <li class="information__list"><a href="#">Представительства</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-2 col-md-4 col-sm-4 col-xs-12">
+                        <p class="support">Поддержка</p>
+                        <ul class="support__block">
+                            <li class="support__list"><a href="#">Статьи</a></li>
+                            <li class="support__list"><a href="#">Доставка и оплата</a></li>
+                            <li class="support__list"><a href="#">Фотогалерея</a></li>
+                            <li class="support__list"><a href="#">Связаться с нами</a></li>
+                            <li class="support__list"><a href="#">О нас</a></li>
+                            <li class="support__list"><a href="#">Отзывы</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-2 col-md-4 col-sm-4 col-xs-12">
+                       <p class="personalCabinet"> Личный кабинет</p>
+                       <ul class="personalCabinet__block">
+                           <li class="personalCabinet__list"><a href="#">Личный кабинет</a></li>
+                           <li class="personalCabinet__list"><a href="#">Личная информация</a></li>
+                           <li class="personalCabinet__list"><a href="#">Адреса</a></li>
+                           <li class="personalCabinet__list"><a href="#">Скидки</a></li>
+                           <li class="personalCabinet__list"><a href="#">История заказов</a></li>
+                       </ul>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-sm-4 col-xs-12">
+                       <p class="social"> Мы в соц.сетях</p>
+                       <ul class="social__block">
+                           <li class="social__list"><a href="#"><i class="fab fa-telegram"></i></a></li>
+                           <li class="social__list"><a href="#"><i class="fab fa-facebook-square"></i></a></li>
+                           <li class="social__list"><a href="#"><i class="fab fa-google-plus"></i></a></li>
+                           <li class="social__list"><a href="#"><i class="fab fa-youtube-square"></i></a></li>
+                           <li class="social__list"><a href="#"><i class="fab fa-instagram"></i></a></li>
+                           <li class="social__list"><a href="#"><i class="fab fa-viber"></i></a></li>
+                       </ul>
+                       <div class="cntr_footer">
+                            <div class="cntr-innr">
+                              <label class="search" for="inpt_search_2">
+                                    <input id="inpt_search_2" type="text" />
+                                </label>
+                            </div>
+                            Поиск
+                        </div>
+                    </div>
+                    <div class="col-lg-12">
+                        <p class="accordion">Контакты</p>
+                            <div class="panel">
+                                <ul class="">
+                                    <li class="">г. Киев, ул. Кожемяцкая 20-А, <span class="">3 этаж, 4 офис</span></li>
+                                    <li class=""><a href="#">+38 097 99 88 777</a></li>
+                                    <li class=""><a href="#">robinzone@gmail.com</a></li>
+                                    <li class=""><a href="#">robinzone.com.ua</a></li>
+                                </ul>
+                            </div>
+                         <p class="accordion">Информация</p>
+                            <div class="panel">
+                                <ul class="">
+                                    <li class=""><a href="#">Про кампанию</a></li>
+                                    <li class=""><a href="#">Розница</a></li>
+                                    <li class=""><a href="#">Опт</a></li>
+                                    <li class=""><a href="#">Представительства</a></li>
+                                </ul>
+                            </div>
+                        <p class="accordion">Поддержка</p>
+                            <div class="panel">
+                                <ul class="">
+                                    <li class=""><a href="#">Личный кабинет</a></li>
+                                    <li class=""><a href="#">Личная информация</a></li>
+                                    <li class=""><a href="#">Адреса</a></li>
+                                    <li class=""><a href="#">Скидки</a></li>
+                                    <li class=""><a href="#">История заказов</a></li>
+                                </ul>
+                            </div>
+                        <p class="accordion">Личный кабинет</p>
+                            <div class="panel">
+                                <ul class="">
+                                    <li class=""><a href="#">Личный кабинет</a></li>
+                                    <li class=""><a href="#">Личная информация</a></li>
+                                    <li class=""><a href="#">Адреса</a></li>
+                                    <li class=""><a href="#">Скидки</a></li>
+                                    <li class=""><a href="#">История заказов</a></li>
+                                </ul>
+                            </div>
+                        <p class="accordion"> Мы в соц.сетях</p>
+                            <div class="panel">
+                                <ul class="social__block">
+                                   <li class="social__list"><a href="#"><i class="fab fa-telegram"></i></a></li>
+                                   <li class="social__list"><a href="#"><i class="fab fa-facebook-square"></i></a></li>
+                                   <li class="social__list"><a href="#"><i class="fab fa-google-plus"></i></a></li>
+                                   <li class="social__list"><a href="#"><i class="fab fa-youtube-square"></i></a></li>
+                                   <li class="social__list"><a href="#"><i class="fab fa-instagram"></i></a></li>
+                                   <li class="social__list"><a href="#"><i class="fab fa-viber"></i></a></li>
+                               </ul>
+                            </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid footerBackgroundTwo">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                        <div class="scrollUp">
+                            <a href="#" onclick="return up()">
+                                <i class="fas fa-angle-up"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12">
+                        <a href="#" class="developed_by">Разработано в <span class="developed_by_style"> Outsourcing Team</span></a>
+                    </div>
+                    <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12">
+                        <div class="payment">
+                            <ul class="payment__block">
+                                <li class="payment_list"><img src="img/masterCard.png" alt="#"></li>
+                                <li class="payment_list"><img src="img/visa.png" alt="#"></li>
+                                <li class="payment_list"><img src="img/novaPoshta.png" alt="#"></li>
+                                <li class="payment_list"><img src="img/meest.png" alt="#"></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAaToMhx8fQewGyukQJx75JijA0zQrUyuQ&callback=initMap">
+    </script>
+
+    <!--SCRIPT -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script> 
+    <script src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/lightzoom.js"></script>
+    <script src="slick/slick.js"></script>
+    <script src="js/jquery.maskedinput.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script src="js/jquery.fancybox.min.js"></script>
+
+    <script>
+        new WOW().init();
+    </script>
+    <script>
+        $(document).ready(function () {
+            $('img.light-zoom').lightzoom({
+                zoomPower   : 3,   
+                glassSize   : 180, 
+            });
+        });
+    </script>
+</body>
+</html>

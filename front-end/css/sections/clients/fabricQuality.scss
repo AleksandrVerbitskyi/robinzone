@@ -1,0 +1,121 @@
+.fabricQuality_cover{
+	.fabricQuality_cover_block{
+		width: 75%;
+		margin: 40px 0;
+    	line-height: 20px;
+    	@media only screen and (max-width: 768px) {
+			width: 100%;
+		}
+		.fabricQuality_title{
+			font-family: 'GillSans-Regular';
+			font-size: 24px;
+			font-weight: bold;
+
+		}
+		.fabricQuality_content{
+			font-family: 'GillSans-Regular';
+			font-size: 16px;
+		}
+	}
+}
+.fabricQuality_slider_blockCover{
+	width: 80%;
+    margin: 20px auto;
+	.fabricQuality_slider{
+		.certivicate_cover{
+			max-width: 200px;
+		    height: 295px;
+		    margin: 10px;
+		    margin: 0 auto;
+		    overflow: hidden;
+			.certivicate_img{
+				width: 100%;
+				height: 100%;
+			}
+		}
+		button.slick-next.slick-arrow,
+		button.slick-prev.slick-arrow{
+			display: block;
+		    background: white;
+		    width: 50px;
+		    height: 50px;
+		    border-radius: 30px;
+		    -webkit-box-shadow: 0px 0px 12px -1px rgba(173,173,173,1);
+		    -moz-box-shadow: 0px 0px 12px -1px rgba(173,173,173,1);
+		    box-shadow: 0px 0px 12px -1px rgba(173,173,173,1);
+		    &:before{
+		    	display: none;
+		    }
+		    i{
+		    	color: #cad0c5;
+			    font-size: 27px;
+			    &:hover{
+			    	color: #81bd46;
+			    }
+		    }
+		   	&:hover i{
+				color: #81bd46;
+			}
+			i.fas.fa-chevron-right {
+			    margin-left: 3px;
+			}
+			i.fas.fa-chevron-left {
+			    margin-left: -6px;
+			}
+		}
+		button.slick-prev.slick-arrow {
+	    	z-index: 3;
+		    left: -25px;
+		}
+		.slick-dots li button:before{
+			color: #bdbdbd;
+			font-size: 15px;
+		}
+		.slick-dots li.slick-active button:before {
+		    color: rgba(131, 189, 70, 0.768627);
+		    opacity: 0.75;
+		}
+	}
+}
+.fabricQuality_cover_block2{
+	text-align: right;
+	margin: 40px 0;
+	.fabricQuality_title2{
+		font-family: 'GillSans-Regular';
+		font-size: 24px;
+		font-weight: bold;
+	}
+	.fabricQuality_content2{
+		font-family: 'GillSans-Regular';
+		font-size: 16px;
+	}
+}
+.fabricQuality_content3{
+	font-family: 'GillSans-Regular';
+	font-size: 16px;
+	margin: 40px 0;
+}
+.fabricQuality_contentBlock{
+	margin: 40px 0;
+	column-count: 2;
+	position: relative;
+	@media only screen and (max-width: 470px) {
+		column-count: 1;
+	}
+	.fabricQuality_content_list{
+		margin: 10px 0px;
+		position: relative;
+		padding-left: 20px;
+		&:before{
+			content: '';
+		    position: absolute;
+		    width: 10px;
+		    height: 10px;
+		    background: #81bd46;
+		    z-index: 3;
+		    left: 0;
+		    top: 8px;
+		    border-radius: 10px;
+		}
+	}
+}

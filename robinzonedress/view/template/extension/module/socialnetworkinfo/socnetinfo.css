@@ -1,0 +1,21 @@
+#table-social thead tr td:first-child, #table-social tbody tr td:first-child {
+    width: 10%;
+}
+#table-social thead tr td:nth-child(2), #table-social tbody tr td:nth-child(2) {
+    width: 20%;
+}
+#table-social thead tr td:nth-child(3), #table-social tbody tr td:nth-child(3) {
+    width: 20%;
+}
+#table-social thead tr td:nth-child(4), #table-social tbody tr td:nth-child(4) {
+    width: 5%;
+}
+#table-social thead tr td:nth-child(5), #table-social tbody tr td:nth-child(5) {
+    width: 20%;
+}
+#table-social thead tr td:nth-child(6), #table-social tbody tr td:nth-child(6) {
+    width: 20%;
+}
+#table-social thead tr td:nth-child(7), #table-social tbody tr td:nth-child(7) {
+    width: 5%;
+}

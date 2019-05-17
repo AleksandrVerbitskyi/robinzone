@@ -1,0 +1,20 @@
+### OpenCart template
+.htaccess
+config.php
+admin/config.php
+image/*
+!index.html
+
+system/logs/
+files
+
+system/storage/
+!system/storage/modification/
+system/upload/
+
+plug/
+
+image/cache/
+
+!.gitignore
+!.htaccess

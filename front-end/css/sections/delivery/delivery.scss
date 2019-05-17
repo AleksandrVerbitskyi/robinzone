@@ -1,0 +1,70 @@
+.deliveryPage_block, .paymentPage_block{
+	display: flex;
+	position: relative;
+	font-family: 'GillSans-Regular'; 
+    justify-content: space-around;
+    text-align: center;
+
+	.deliveryPage_list, .paymentPage_list{
+		display: inline-block;
+		margin: 0 40px;
+		@media only screen and (max-width: 513px) {
+			margin: 0 15px;
+		}
+		@media only screen and (max-width: 410px) {
+			margin: 0 7px;
+		}
+		.deliveryPage_img, .paymentPage_img{
+    		width: 130px;
+    		@media only screen and (max-width: 768px) {
+				width: 100px;
+			}
+			@media only screen and (max-width: 513px) {
+				width: 75px;
+			}
+		}
+		.deliveryPage_img__description, .paymentPage_img__description{
+			font-size: 16px;
+			font-weight: bold;
+			@media only screen and (max-width: 410px) {
+				font-size: 12px;
+			}
+		}
+		.paymentPage_img__subdescription{
+			max-width: 250px;
+			margin: 0 auto;
+			line-height: 19px;
+		}
+	} 
+	.deliveryPage_list:nth-child(2) .deliveryPage_img,  .deliveryPage_list:nth-child(3) .deliveryPage_img{
+		width: 158px;
+		@media only screen and (max-width: 768px) {
+			width: 120px;
+		}
+		@media only screen and (max-width: 513px) {
+			width: 95px;
+		}
+	} 
+}
+.paymentPage_block{
+	justify-content: center;
+	margin-bottom: 70px;
+}
+.deliveryPage_subTitle{
+	 font-family: 'GillSans-Regular'; 
+	font-weight: bold;
+	font-size: 30px;
+}
+.deliveryPage_type{
+	 font-family: 'GillSans-Regular'; 
+	font-size: 18px;
+	font-weight: bold;
+}
+.deliveryPage_type__content{
+	font-family: 'GillSans-Regular'; 
+	font-size: 16px;
+	line-height: 19px;
+}
+.delivery_cover{
+	margin: 40px 0;
+}

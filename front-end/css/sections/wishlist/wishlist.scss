@@ -1,0 +1,49 @@
+.table_cover2{
+	.history_table2{
+		.history_table__itemOrder2{
+			td:nth-child(1){
+				width: 35%;
+			}
+			td:nth-child(2){
+				width: 15%;
+			}
+			td:nth-child(3){
+				width: 10%;
+			}
+			td:nth-child(4){
+				width: 20%;
+			}
+			td:nth-child(5){
+				width: 8%;
+			@media only screen and (max-width: 1024px) {
+				width: 10%;
+			}
+			}
+			.history_table_itemModel, .history_table_discountPeriod{
+				font-size: 12px;
+				font-family: 'GillSans-Light';
+				text-align: center;
+			}
+			.history_table_itemIcons{
+				i{
+					color: #81bd46;
+					transition:1s;
+					margin-right: 10px;
+    				font-size: 18px;
+					&:hover{
+						color: #c3c3c3;
+					}
+				}
+			}
+		}
+		.history_table__topRow{
+			th:nth-child(1){
+				text-align: left;
+			}
+		}
+	}
+}
+.moveToCatalog:hover {
+    text-decoration: none;
+    color: white;
+}

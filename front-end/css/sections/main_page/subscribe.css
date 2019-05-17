@@ -1,0 +1,249 @@
+.subscribeCover {
+  background-image: url(../img/subscribe.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat; }
+
+.subscribe {
+  font-family: 'GillSans-Regular';
+  color: #fff;
+  padding: 20px 0; }
+  @media only screen and (max-width: 575px) {
+    .subscribe {
+      text-align: center;
+      width: 300px;
+      margin: 0 auto; } }
+  .subscribe .subscribe__title {
+    font-size: 30px; }
+    @media only screen and (max-width: 1200px) {
+      .subscribe .subscribe__title {
+        font-size: 24px; } }
+    .subscribe .subscribe__title .subscribe__title_style {
+      font-size: 25px;
+      display: block; }
+      @media only screen and (max-width: 1200px) {
+        .subscribe .subscribe__title .subscribe__title_style {
+          font-size: 16px; } }
+  .subscribe .subscribe__subTitle {
+    font-size: 13px; }
+
+@media only screen and (max-width: 575px) {
+  .subscribe__block_form {
+    text-align: center; } }
+
+.subscribe__block_form .subscribe_input {
+  background: transparent;
+  border: 3px dashed #d6cfcf;
+  width: 340px;
+  height: 55px;
+  border-radius: 50px;
+  padding-left: 20px;
+  outline: none; }
+  @media only screen and (max-width: 1200px) {
+    .subscribe__block_form .subscribe_input {
+      width: 295px; } }
+  @media only screen and (max-width: 769px) {
+    .subscribe__block_form .subscribe_input {
+      width: 265px; } }
+
+.subscribe__block_form ::-webkit-input-placeholder {
+  color: #fff; }
+
+.subscribe__block_form ::-moz-placeholder {
+  color: #fff; }
+
+.subscribe__block_form :-ms-input-placeholder {
+  color: #fff; }
+
+.subscribe__block_form :-moz-placeholder {
+  color: #fff; }
+
+.subscribe_button {
+  background: #83bd46;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 20px;
+  border: none;
+  width: 210px;
+  height: 55px;
+  border-radius: 30px;
+  float: right; }
+  @media only screen and (max-width: 991px) {
+    .subscribe_button {
+      float: none;
+      margin: 0 auto;
+      -ms-flex-pack: distribute;
+      justify-content: space-around;
+      display: block;
+      margin-bottom: 35px; } }
+  @media only screen and (max-width: 575px) {
+    .subscribe_button {
+      margin-top: 20px; } }
+
+#modal_form {
+  width: 450px;
+  position: fixed;
+  display: none;
+  opacity: 1;
+  z-index: 10;
+  padding: 10px;
+  left: 50%;
+  top: 15%;
+  -webkit-transform: translate(-50%, 0);
+  -ms-transform: translate(-50%, 0);
+  transform: translate(-50%, 0);
+  background-image: url("../img/modal_form.png");
+  background-position: center;
+  background-size: cover; }
+  @media only screen and (max-width: 600px) {
+    #modal_form {
+      width: 410px; } }
+  @media only screen and (max-width: 455px) {
+    #modal_form {
+      width: 315px; } }
+  #modal_form .in-touch-form .callbackBlock__form {
+    top: 0;
+    width: 100%;
+    padding: 20px; }
+    @media only screen and (max-width: 767px) {
+      #modal_form .in-touch-form .callbackBlock__form {
+        margin: 0; } }
+  #modal_form .in-touch-form .modalForm__title {
+    color: #666C6C;
+    font-family: 'GillSans-Bold';
+    text-transform: uppercase;
+    position: relative;
+    font-size: 25px;
+    margin-top: 45px;
+    text-align: center; }
+    @media only screen and (max-width: 455px) {
+      #modal_form .in-touch-form .modalForm__title {
+        font-size: 28px; } }
+  #modal_form .in-touch-form .modalForm__subTitle {
+    max-width: 350px;
+    text-align: center;
+    margin: 0 auto;
+    font-size: 17px;
+    padding-bottom: 10px;
+    font-family: 'GillSans-Light';
+    color: #666C6C; }
+    @media only screen and (max-width: 455px) {
+      #modal_form .in-touch-form .modalForm__subTitle {
+        font-size: 13px; } }
+    @media only screen and (max-width: 400px) {
+      #modal_form .in-touch-form .modalForm__subTitle {
+        max-width: 280px; } }
+  #modal_form .in-touch-form .modalForm__form {
+    width: 380px;
+    display: block;
+    background-color: white;
+    position: relative;
+    top: -25px;
+    padding: 10px 20px;
+    margin-top: 10px; }
+    @media only screen and (max-width: 600px) {
+      #modal_form .in-touch-form .modalForm__form {
+        width: 380px; } }
+    @media only screen and (max-width: 500px) {
+      #modal_form .in-touch-form .modalForm__form {
+        width: 320px; } }
+    @media only screen and (max-width: 455px) {
+      #modal_form .in-touch-form .modalForm__form {
+        width: 290px;
+        padding: 5px 20px 10px 20px; } }
+    #modal_form .in-touch-form .modalForm__form .modalForm__name,
+    #modal_form .in-touch-form .modalForm__form .modalForm__number,
+    #modal_form .in-touch-form .modalForm__form .modalForm__mail {
+      display: block;
+      width: 350px;
+      height: 45px;
+      border: 1px dashed gray;
+      border-radius: 20px;
+      font-family: 'GillSans-Light';
+      outline: none;
+      margin: 10px 0;
+      padding-left: 10px; }
+      @media only screen and (max-width: 600px) {
+        #modal_form .in-touch-form .modalForm__form .modalForm__name,
+        #modal_form .in-touch-form .modalForm__form .modalForm__number,
+        #modal_form .in-touch-form .modalForm__form .modalForm__mail {
+          width: 310px; } }
+      @media only screen and (max-width: 455px) {
+        #modal_form .in-touch-form .modalForm__form .modalForm__name,
+        #modal_form .in-touch-form .modalForm__form .modalForm__number,
+        #modal_form .in-touch-form .modalForm__form .modalForm__mail {
+          width: 255px; } }
+    #modal_form .in-touch-form .modalForm__form .modalForm__button {
+      background: #83bd46;
+      color: #fff;
+      text-transform: uppercase;
+      font-family: 'GillSans-Regular';
+      font-weight: bold;
+      font-size: 20px;
+      border: none;
+      width: 185px;
+      height: 55px;
+      border-radius: 30px;
+      margin: 10px 70px; }
+      @media only screen and (max-width: 600px) {
+        #modal_form .in-touch-form .modalForm__form .modalForm__button {
+          margin: 0 auto;
+          margin-top: 15px;
+          width: 310px; } }
+      @media only screen and (max-width: 455px) {
+        #modal_form .in-touch-form .modalForm__form .modalForm__button {
+          width: 255px; } }
+      @media only screen and (max-width: 500px) {
+        #modal_form .in-touch-form .modalForm__form .modalForm__button {
+          width: 240px; } }
+      #modal_form .in-touch-form .modalForm__form .modalForm__button:hover {
+        -webkit-transition: 2s;
+        -o-transition: 2s;
+        transition: 2s;
+        background-color: white;
+        border: 3px solid #82bd46;
+        outline: none;
+        color: #4e4e4e; }
+      #modal_form .in-touch-form .modalForm__form .modalForm__button:not(:hover) {
+        -webkit-transition: 2s;
+        -o-transition: 2s;
+        transition: 2s; }
+
+#modal_form #modal_close {
+  width: 35px;
+  height: 35px;
+  position: absolute;
+  top: -1px;
+  right: 35px;
+  border-radius: 30px;
+  cursor: pointer;
+  display: block;
+  font-size: 18px;
+  background: #83bd46;
+  border: 4px solid #fff;
+  z-index: 7;
+  text-align: center;
+  opacity: 1;
+  color: #fff;
+  -webkit-box-shadow: 0px 5px 16px 0px #a8a8a8;
+  -moz-box-shadow: 0px 5px 16px 0px #a8a8a8;
+  box-shadow: 0px 5px 16px 0px #a8a8a8; }
+  @media only screen and (max-width: 400px) {
+    #modal_form #modal_close {
+      right: 0; } }
+  #modal_form #modal_close .fa-times {
+    margin: 0; }
+
+#overlay {
+  z-index: 7;
+  position: fixed;
+  background-color: #000;
+  opacity: 0.8;
+  -moz-opacity: 0.8;
+  filter: alpha(opacity=80);
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  cursor: pointer;
+  display: none; }

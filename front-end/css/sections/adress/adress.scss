@@ -1,0 +1,29 @@
+.adress_block{
+	display: block;
+	width: 90%;
+	margin: 0 30px;
+	margin-bottom: 80%;
+	 .adress_list{
+	 	font-family: 'GillSans-Regular';
+	    font-size: 16px;
+	    color: #4a4a4a;
+	    padding: 7px 0;
+	    width: 100%;
+	    border-bottom: 1px solid gainsboro;
+	 	i{
+	 		float: right;
+	 		color: #81bd46;
+	 		margin: 0 5px;
+	 		cursor: pointer;
+	 		&:hover{
+	 			color: rgb(171, 171, 171);
+	 		}
+	 		@media only screen and (max-width: 768px) {
+				float: none;
+			}
+	 	}
+	}
+	  .adress_list:last-child{
+			border-bottom: none;
+	 }
+}

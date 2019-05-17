@@ -1,0 +1,474 @@
+.subscribeCover{
+	background-image: url(../img/subscribe.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.subscribe{
+	font-family: 'GillSans-Regular';
+	color: #fff;
+	padding: 20px 0;
+	@media only screen and (max-width: 575px) {
+		text-align: center;
+	    width: 300px;
+	    margin: 0 auto;
+	}
+	.subscribe__title{
+		font-size: 30px;
+		@media only screen and (max-width: 1200px) {
+			font-size: 24px;
+		}
+		.subscribe__title_style{
+			font-size: 25px;
+			display: block;
+			@media only screen and (max-width: 1200px) {
+				font-size: 16px;
+			}
+		}
+	}
+	.subscribe__subTitle{
+		font-size: 13px;
+	}
+}
+.subscribe__block_form{
+	text-align: center;
+	.subscribe_input{
+		background: transparent;
+	    border: 3px dashed #d6cfcf;
+	    width: 340px;
+	    height: 55px;
+	    border-radius: 50px;
+	    padding-left: 20px;
+	    outline: none;
+	    color: #fff;
+	    @media only screen and (max-width: 1200px) {
+			width: 295px;
+		}
+		@media only screen and (max-width: 769px) {
+			width: 265px;
+		}
+	}
+	 ::-webkit-input-placeholder { 
+		  color: #fff;
+		}
+		::-moz-placeholder {
+		  color: #fff;
+		}
+		:-ms-input-placeholder { 
+		  color: #fff;
+		}
+		:-moz-placeholder {
+		  color: #fff;
+		}
+}
+.subscribe_button{
+	background: #83bd46;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 20px;
+    border: none;
+    width: 210px;
+    height: 55px;
+    border-radius: 30px;
+    float: right;
+    transition:1.5s;
+    &:hover{
+	    	background: #467d09;
+	    }
+    @media only screen and (max-width: 991px) {
+	    float: none;
+	    margin: 0 auto;
+	    justify-content: space-around;
+	    display: block;
+	    margin: 0 auto;
+    	margin-top: 10px;
+	}
+	@media only screen and (max-width: 575px) {
+	   margin-bottom: 35px;
+	}
+}
+
+
+                                                      //MODAL FORM
+
+
+#modal_form, #gratitude_form  {
+    height: auto;
+    opacity: 1;
+    z-index: 55;
+    padding: 10px;
+    top: 12%;
+    height: auto;
+	position: relative;
+	width: 90%;
+	max-width: 450px;
+	margin: 4em auto;
+	text-align: center;
+    -webkit-transform: translateY(-40px);
+	-moz-transform: translateY(-40px);
+	-ms-transform: translateY(-40px);
+	-o-transform: translateY(-40px);
+	transform: translateY(-40px);
+	-webkit-backface-visibility: hidden;
+	-webkit-transition-property: -webkit-transform;
+	-moz-transition-property: -moz-transform;
+	transition-property: transform;
+	-webkit-transition-duration: 0.3s;
+	-moz-transition-duration: 0.3s;
+	transition-duration: 0.3s;
+    background-image: url('../img/modal_form.png');
+    background-position: center;
+    background-size: cover;
+    @media only screen and (max-width: 823px) and (max-height: 411px){
+    	top: -31%;
+    }
+    @media only screen and (max-width: 736px) and (max-height: 414px){
+    	top: -29%;
+    }
+    @media only screen and (max-width: 667px) and (max-height: 375px){
+    	top: -32%;
+    }
+    @media only screen and (max-width: 600px) {
+    	width: 410px;
+    }
+    @media only screen and (max-width: 568px) and (max-height: 320px){
+    	top: -44%;
+    }
+    @media only screen and (max-width: 455px) {
+    	width: 315px;
+    	top: 0;
+    }
+    @media only screen and (max-width: 425px) and (max-height: 425px){
+    	top: -120px;
+    }
+     @media only screen and (max-width: 360px) {
+    	width: 295px;
+    }
+    	.in-touch-form{
+    		.callbackBlock__form{
+    			top: 0;
+    			width: 100%;
+    			padding: 20px;
+    			@media only screen and (max-width: 767px) {
+					margin: 0;
+			    }
+    		}
+    		.modalForm__title{
+    			color: #666C6C;
+			    font-family: 'GillSans-Bold';
+			    text-transform: uppercase;
+			    position: relative;
+			    font-size: 25px;
+			    margin-top: 45px;
+			    text-align: center;
+			    @media only screen and (max-width: 455px) {
+    				font-size: 28px;
+    			}
+    		}
+    		.modalForm__subTitle{
+    			max-width: 350px;
+			    text-align: center;
+			    margin: 0 auto;
+			    font-size: 17px;
+			    padding-bottom: 10px;
+			    font-family: 'GillSans-Light';
+			    color: #666C6C;
+			    @media only screen and (max-width: 455px) {
+			    	font-size: 13px;
+			    }
+			    @media only screen and (max-width: 400px) {
+					max-width: 280px;
+				}
+    		}
+    		.modalForm__form{
+    			width: 380px;
+			    display: block;
+			    background-color: white;
+			    position: relative;
+			    top: -25px;
+			    padding: 10px 20px;
+			    margin-top: 10px;
+			    @media only screen and (max-width: 600px) {
+			    	width: 380px;
+			    }
+			    @media only screen and (max-width: 500px) {
+			    	width: 320px;
+			    }
+			    @media only screen and (max-width: 455px) {
+			    	width: 280px;
+    				padding: 5px 20px 10px 7px;
+			    }
+			     @media only screen and (max-width: 360px) {
+			    	width: 245px;
+    				padding: 5px 0px 10px 0px;
+			    }
+				    .modalForm__name,
+				    .modalForm__number,
+				    .modalForm__mail{
+				    	display: block;
+			    		width: 350px;
+					    height: 45px;
+					    border: 1px dashed gray;
+					    border-radius: 20px;
+					    font-family: 'GillSans-Light';
+					    outline: none;
+					    margin: 10px 0;
+					    padding-left: 10px;
+					    @media only screen and (max-width: 600px) {
+					    	width: 310px;
+					    }
+					    @media only screen and (max-width: 568px) and (max-height: 320px){
+					    	height: 37px;
+					    }
+					    @media only screen and (max-width: 455px) {
+					    	width: 255px;
+					    }
+				    }
+				    .modalForm__button{
+			    	    background: #83bd46;
+					    color: #fff;
+					    text-transform: uppercase;
+					    font-family: 'GillSans-Regular';
+					    font-weight: bold;
+					    font-size: 20px;
+					    border: none;
+					    width: 220px;
+					    height: 55px;
+					    border-radius: 30px;
+					    margin: 10px 70px;
+					    @media only screen and (max-width: 600px) {
+					    	margin: 0 auto;
+		    				margin-top: 15px;
+		    				width: 310px;
+					    }
+					    @media only screen and (max-width: 568px) and (max-height: 320px){
+					    	height: 41px;
+					    	position: relative;
+    						left: -10px;
+					    }
+					    @media only screen and (max-width: 455px) {
+					    	width: 255px;
+					    }
+					    @media only screen and (max-width: 500px) {
+					    	width: 240px;
+					    }
+					    	&:hover{
+							    -webkit-transition: 2s;
+							    -o-transition: 2s;
+							    transition: 2s;
+							    background-color: rgb(255, 255, 255);
+							    border: 3px solid rgb(130, 189, 70);
+							    outline: none;
+							    color: #4e4e4e;
+						    }
+						    &:not(:hover){
+						    	transition:2s;
+						    }
+				    }
+	    		}
+	    	}
+}
+#overlay2 #gratitude_form {
+	top:20%;
+	height: 400px !important;
+	@media only screen and (max-width: 823px) and (max-height: 411px){
+		top: -13%;
+    }
+    @media only screen and (max-width: 812px) and (max-height: 375px){
+		top: -19%;
+    }
+    @media only screen and (max-width: 736px) and (max-height: 414px){
+   	 	top: -13%;
+    }
+    @media only screen and (max-width: 667px) and (max-height: 375px){
+		top: -20%;
+    }
+    @media only screen and (max-width: 568px) and (max-height: 320px){
+		top: -32%;
+    }
+    @media only screen and (max-width: 425px) and (max-height: 425px){
+		top: -11%;
+    }
+    @media only screen and (max-width: 414px) {
+    	top: 12%;
+    }
+     @media only screen and (max-width: 360px) {
+    	top: 8%;
+    }
+    @media only screen and (max-width: 320px) {
+    	top: 3%;
+    }
+	.in-touch-form{
+		.callbackBlock__form{
+			max-width: 350px;
+    		margin: 0 auto;
+    		 @media only screen and (max-width: 450px) {
+		    	max-width: 300px;
+		    }
+		}
+		.error_form{
+			p, h3{
+				color: rgb(255, 167, 0);
+			}
+			i.fas.fa-exclamation-triangle{
+				color: rgb(255, 167, 0);
+			    font-size: 40px;
+			    position: relative;
+			    top: 25px;
+			    @media only screen and (max-width: 415px) {
+			    	top: 60px;
+			    	font-size: 30px;
+			    }
+			}
+		}
+		.warning_form{
+			p, h3{
+				color: #f00;
+			}
+			i.fas.fa-exclamation-circle{
+				color: #f00;
+			    font-size: 40px;
+			    position: relative;
+			    top: 25px;
+			    @media only screen and (max-width: 415px) {
+			    	top: 50px;
+			    	font-size: 30px;
+			    }
+			}
+		}
+	}
+}
+#modal_form #modal_close,
+#gratitude_form #gratitude_close,
+.modal_closeLook #modal_close_closeLook,
+#modal_close_fabric{
+   	width: 35px;
+    height: 35px;
+    position: absolute;
+    top: -1px;
+    right: 35px;
+    border-radius: 30px;
+    cursor: pointer;
+    display: block;
+    font-size: 18px;
+    background: #83bd46;
+    border: 4px solid #fff;
+    z-index: 7;
+    text-align: center;
+    opacity: 1;
+    color: #fff;
+    -webkit-box-shadow: 0px 5px 16px 0px rgba(168,168,168,1);
+	-moz-box-shadow: 0px 5px 16px 0px rgba(168,168,168,1);
+	box-shadow: 0px 5px 16px 0px rgba(168,168,168,1);
+	&:hover{
+		background: #f1a873;
+	}
+	@media only screen and (max-width: 400px) {
+		right: 0;
+ 	}
+	   .fa-times {
+	    	margin: 0;
+	 	}
+}
+#modal_close_fabric{
+	top: -17px;
+}
+.modal_closeLook #modal_close_closeLook {
+	width: 45px;
+    height: 44px;
+    top: -25px;
+    right: 20px;
+    font-size: 24px;
+}
+#overlay, #overlay2, #overlay3, #overlay4 {
+	z-index:25; 
+	position:fixed; 
+	background-color: rgba(0, 0, 0, 0.72);
+	width:100%; 
+	height:100%; 
+	top:0; 
+	left:0;
+	cursor:pointer;
+	opacity: 0;
+  	visibility: hidden;
+}
+#overlay.is-visible, #overlay2.is-visible,  #overlay3.is-visible, #overlay4.is-visible {
+	opacity: 1;
+	visibility: visible;
+	-webkit-transition: opacity 0.3s 0s, visibility 0s 0s;
+	-moz-transition: opacity 0.3s 0s, visibility 0s 0s;
+	transition: opacity 0.3s 0s, visibility 0s 0s;
+}
+.is-visible #modal_form, .is-visible #gratitude_form {
+  	-webkit-transform: translateY(0);
+  	-moz-transform: translateY(0);
+  	-ms-transform: translateY(0);
+  	-o-transform: translateY(0);
+  }
+#gratitude_form {
+	height: auto;
+    opacity: 1;
+    z-index: 55;
+    padding: 10px;
+    top: 12%;
+    height: auto;
+	position: relative;
+	width: 90%;
+	max-width: 600px;
+	margin: 4em auto;
+	text-align: center;
+    -webkit-transform: translateY(-40px);
+	-moz-transform: translateY(-40px);
+	-ms-transform: translateY(-40px);
+	-o-transform: translateY(-40px);
+	transform: translateY(-40px);
+	-webkit-backface-visibility: hidden;
+	-webkit-transition-property: -webkit-transform;
+	-moz-transition-property: -moz-transform;
+	transition-property: transform;
+	-webkit-transition-duration: 0.3s;
+	-moz-transition-duration: 0.3s;
+	transition-duration: 0.3s;
+    background-image: url('../img/modal_form.png');
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+	.callbackBlock__form{
+		h3{
+			font-family: 'GillSans-Bold'; 
+			text-align: center;
+			margin: 60px 0 50px;
+			color: #83bd46;
+		    @media only screen and (max-width: 455px) {
+				font-size: 28px;
+				margin: 60px 0 20px;
+			}
+		}
+		p{
+			color: #000;
+			text-align: center;
+			font-family: 'GillSans-Light'; 
+			padding-bottom: 25px;
+			position: relative;
+    		top: -30px;
+    		@media only screen and (max-width: 500px) {
+				top: -10px;
+			}
+		}
+	}
+}
+ #gratitude_form #gratitude_close{
+ 	top: -1px;
+ 	right: 145px;
+ 	@media only screen and (max-width: 768px) {
+		right: 120px;
+		top: 5px;
+	}
+	@media only screen and (max-width: 590px) {
+		right:95px;
+	}
+	@media only screen and (max-width: 465px) {
+		display: none;
+	}
+ }
+

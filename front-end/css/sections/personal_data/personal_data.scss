@@ -1,0 +1,376 @@
+.pesonalCabinet_personalDataBlock{
+	width: 100%;
+	.pesonalCabinet_personalDataForm{
+		width: 100%;
+	    display: block;
+	    border-bottom: 1px solid #dcdcdc;
+	    padding-bottom: 100px;
+	    margin: 0 auto;
+		.personalDataForm_cover{
+			position: relative;
+			span{
+				position: relative;
+				@media only screen and (max-width: 768px) {
+					display: block;
+				}
+			}
+			span:nth-child(3){
+				display: block;
+			}
+			.personalDataForm_input{
+			   	outline: none;
+			    height: 45px;
+			    border-radius: 13px;
+			    background-color: #FAFAFA;
+			    border: 1px solid #dedddd;
+			    margin: 5px auto;
+			    padding-left: 35px;
+			    font-size: 14px;
+			    position: relative;
+			    font-family: 'GillSans-Regular';
+			    width: 45%;
+	    		margin-right: 20px;
+	    		display: inline-block;
+	    		@media only screen and (max-width: 991px) {
+					margin-right: 5px;
+				}
+				@media only screen and (max-width: 768px) {
+					width: 100%;
+				}
+			}
+			i{
+		    	color: #e2e2e2;
+			    position: absolute;
+			    top: 4px;
+			    left: 9px;
+			    font-size: 16px;
+			    z-index: 4;
+			    @media only screen and (max-width: 768px) {
+					top: 20px;
+				}
+	    	}
+			i.fas.fa-pencil-alt{
+				color: #81bd46;
+				left: 87%;
+				@media only screen and (max-width: 1200px) {
+					left: 84%;
+				}
+				 @media only screen and (max-width: 768px) {
+					left: 90%;
+				}
+				&:after{
+					content: '';
+				    position: absolute;
+				    width: 20px;
+				    height: 1px;
+				    background: #81bd46;
+				    z-index: 34;
+				    top: 17px;
+				    left: 0;
+				}
+			}
+		}
+		.personalDataForm_cover:nth-child(3){
+			display: inline;
+		}
+		.return_content_reason{
+			display: inline;
+			 @media only screen and (max-width: 515px) {
+				display: inline-block;
+				padding: 0;
+			}
+			@media only screen and (max-width: 485px) {
+				width: 30%;
+			}
+			@media only screen and (max-width: 397px) {
+				width: 32%;
+			}
+			.select{
+				width: 105px;
+				margin-right: 2px;
+				height: 45px;
+				@media only screen and (max-width: 1200px) {
+					width: 100px;
+				}
+				@media only screen and (max-width: 991px) {
+					width: 112px;
+				}
+				 @media only screen and (max-width: 768px) {
+					width: 105px;
+				}
+				@media only screen and (max-width: 350px) {
+					width: 95px;
+				}
+			}
+			.personalDataForm_date, .personalDataForm_month, .personalDataForm_year{
+				option{
+
+				}
+			}
+			.select-styled {
+			    position: relative;
+			    top: 0;
+			    right: 0;
+			    bottom: 0;
+			    left: 0;
+			    background-color: #FAFAFA;
+    			border: 1px solid #dedddd;
+			    border-radius: 13px;
+			    padding: 9px 15px;
+			    -moz-transition: all 0.2s ease-in;
+			    -o-transition: all 0.2s ease-in;
+			    -webkit-transition: all 0.2s ease-in;
+			    transition: all 0.2s ease-in;
+			    height: 45px;
+			    &:after{
+				    position: absolute;
+				    top: 12px;
+				    content: '\f107';
+				    font-family: "Font Awesome 5 Free";
+				    font-weight: 900;
+				    border: none;
+				    background: none;
+				    right: 20px;
+				    color: #a9a7ab;
+				    font-size: 17px;
+				}
+			}
+			.select-styled.active:after{
+			    transform: rotate(-180deg);
+			    top: 34px;
+			    right: 12px;
+			}
+			.select-options {
+			    display: none;
+			    position: absolute;
+			    top: 46px;
+			    right: 0;
+			    left: 0px;
+			    z-index: 999;
+			    margin: 0;
+			    padding: 0;
+			    list-style: none;
+			    background: rgb(250, 250, 250);
+			    border-radius: 2px;
+			    max-height: 250px;
+			    overflow-y: auto;
+			}
+		}
+
+		.personalDataForm_button{
+		    height: 45px;
+		    border-radius: 30px;
+		    border: none;
+		    color: white;
+		    font-size: 18px;
+		    text-transform: uppercase;
+		    display: block;
+		    margin: 30px 0;
+		    -webkit-transition: 1.5s;
+		    -o-transition: 1.5s;
+		    transition: 1.5s;
+		    width: 22%;
+		    position: relative;
+		    float: right;
+		    margin-right: 50px;
+		    display: block;
+		    @media only screen and (max-width: 991px) {
+				width: 30%;
+			}
+			 @media only screen and (max-width: 768px) {
+				width: 34%;
+    			margin-right: 11px;
+			}
+			 @media only screen and (max-width: 750px) {
+				width: 45%;
+			}
+			@media only screen and (max-width: 576px) {
+				width: 39%;
+    			margin-right: 39px;
+			}
+			@media only screen and (max-width: 568px) {
+    			margin-right: 0;
+			}
+			@media only screen and (max-width: 420px) {
+				width: 45%;
+				margin-right: 100px;
+			}
+			@media only screen and (max-width: 320px) {
+				margin-right: 78px;
+			}
+		    &:hover{
+		    	background: #81bd46;
+		    }
+		}
+	}
+}
+.pesonalCabinet_socialBlock{
+	    border-bottom: 1px solid #dcdcdc;
+    	padding-bottom: 95px;
+	.pesonalCabinet_socialBlock_title{
+		font-size: 22px;
+		font-family: 'GillSans-Regular';
+		font-weight: bold;
+    	text-align: center;
+    	margin: 10px 0;
+
+	}
+	.pesonalCabinet_socialBlock_content{
+		font-size: 15px;
+	    font-family: 'GillSans-Regular';
+	    margin: 15px 0 0;
+	}
+	.pesonalCabinet_socialBlock_button{
+		text-decoration: none;
+	    color: #81bd46;
+	    background: #ffffff;
+	    padding: 10px 30px;
+	    border-radius: 30px;
+	    float: right;
+	    text-transform: uppercase;
+	    border: 2px solid #81bd46;
+	    margin-right: 47px;
+	    transition:1.5s;
+	    margin-top: 10px;
+	     @media only screen and (max-width: 1200px) {
+			margin-top: 20px;
+		}
+		 @media only screen and (max-width: 768px) {
+			margin-right: 0;
+		}
+		 @media only screen and (max-width: 375px) {
+			margin-right: 58px;
+		}
+		 @media only screen and (max-width: 415px) {
+			margin-right: 70px;
+		}
+		 @media only screen and (max-width: 360px) {
+			margin-right: 57px;
+		}
+		 @media only screen and (max-width: 320px) {
+			margin-right: 40px;
+		}
+	    &:hover{
+	    	background: #81bd46;
+	    	color:#fff;
+	    }
+	}
+}
+.pesonalCabinet_mailingBlock{
+    	margin-bottom: 33%;
+    	@media only screen and (max-width: 836px) {
+			margin-bottom: 55%;
+		}
+	.pesonalCabinet_mailingBlock_title{
+		font-size: 22px;
+		font-family: 'GillSans-Regular';
+		font-weight: bold;
+    	text-align: center;
+    	margin: 10px 0;
+	}
+	.news_and_discount{
+		font-size: 15px;
+	    font-family: 'GillSans-Regular';
+	    margin: 15px 0 0;
+	}
+	span{
+		@media only screen and (max-width: 823px) {
+			display: block;
+		}
+	}
+	.news_and_discount__input{
+		font-family: 'GillSans-Regular';
+		-webkit-appearance: none;
+	    width: 20px;
+	    height: 20px;
+	    background-color: #FAFAFA;
+		border: 1px solid #d6d6d6;
+	    border-radius: 5px;
+	    position: relative;
+	    top: 5px;
+	    outline: none;
+	    cursor: pointer;
+	    left: -7px;
+		&:checked{
+			&:after{
+			color: #82bd46;
+			content: '✔';
+			position: relative;
+			top: -3px;
+			left: 3px;
+			font-size: 17px;
+			font-family: 'GillSans-Light';
+			}
+		}
+	}
+	.news_and_discount__label{
+    	margin-right: 40px;
+	}
+	.news_and_discount_cover{
+		display: inline-block;
+		float: right;
+		 @media only screen and (max-width: 823px) {
+			display: block;
+    		float: none;
+    		margin-top: 15px;
+		}
+	}
+	.pesonalCabinet_mailingBlock_button{
+		height: 50px;
+	    border-radius: 30px;
+	    border: none;
+	    color: white;
+	    font-size: 18px;
+	    text-transform: uppercase;
+	    display: block;
+	    margin: 30px 0;
+	    -webkit-transition: 1.5s;
+	    -o-transition: 1.5s;
+	    transition: 1.5s;
+	    width: 22%;
+	    background: #dddddd;
+	    margin-right: 50px;
+	    display: block;
+	    text-align: center;
+	    padding-top: 10px;
+	    cursor: pointer;
+	    position: absolute;
+    	right: 0;
+    	@media only screen and (max-width: 1200px) {
+			margin-top: 20px;
+		}
+		@media only screen and (max-width: 1024px) {
+			margin-right: 50px;
+			margin-top: 45px;
+		}
+		@media only screen and (max-width: 836px) {
+			width: 30%;
+		}
+		 @media only screen and (max-width: 768px) {
+			margin-right: 20px;
+			width: 32%;
+		}
+		 @media only screen and (max-width: 736px) {
+			width: 45%;
+		}
+		 @media only screen and (max-width: 375px) {
+			margin-right: 58px;
+		}
+		 @media only screen and (max-width: 415px) {
+			margin-right: 100px;
+		}
+		 @media only screen and (max-width: 375px) {
+			margin-right: 100px;
+			width: 45%;
+		}
+		 @media only screen and (max-width: 360px) {
+			margin-right: 100px;
+		}
+		 @media only screen and (max-width: 320px) {
+			margin-right: 80px;
+		}
+	    &:hover{
+	    	background: #81bd46;
+	    }
+	}
+}

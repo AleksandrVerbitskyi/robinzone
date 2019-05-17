@@ -1,0 +1,36 @@
+.aboutUs__title,
+.novelties_title,
+.catalog_title,
+.news_title,
+.cartPage_title,
+.contacts_title,
+.deliveryPage_title,
+.paymentPage_title,
+.aboutUs_rewards_title,
+.boutUs_ourCompany_title{
+	font-family: 'GillSans-Regular'; 
+    font-weight: bold;
+    font-size: 30px;
+    text-transform: uppercase;
+    text-align: center;
+}
+.catalog_title,
+.news_title,
+.cartPage_title,
+.deliveryPage_title,
+.paymentPage_title,
+.aboutUs_rewards_title,
+.boutUs_ourCompany_title{
+	color: #343434;
+	margin-bottom: 35px;
+}
+.cartPage_title,
+.deliveryPage_title,
+.paymentPage_title,
+.aboutUs_rewards_title,
+.boutUs_ourCompany_title{
+	@media only screen and (max-width: 991px) {
+		margin: 20px 0;
+		font-size: 23px;
+	}
+}

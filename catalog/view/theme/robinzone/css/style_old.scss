@@ -1,0 +1,24 @@
+/* BASE
+================================================= */
+@import 'base/fonts.scss';
+@import 'base/style-reset.scss';
+@import 'base/variables.scss';
+
+
+
+/* GENERAL SECTIONS
+================================================= */
+@import 'sections/general/header.scss';
+@import 'sections/general/footer.scss';
+@import 'sections/general/titles.scss';
+@import 'sections/general/breadCrumbs.scss';
+
+
+/* MAIN PAGE
+================================================= */
+@import 'sections/main_page/header_slider.scss';
+@import 'sections/main_page/categories.scss';
+@import 'sections/main_page/novelties.scss';
+@import 'sections/main_page/about_us.scss';
+@import 'sections/main_page/subscribe.scss';
+@import 'sections/main_page/map.scss';

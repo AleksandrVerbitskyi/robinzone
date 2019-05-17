@@ -1,0 +1,736 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="google-site-verification" content="Cip5KMZVAHRiVh85wHV51jOKGPeKq3LIN9G_YfYxwT0" />
+    <title>Robinzone</title>
+        <!-- CSS -->
+    <!-- <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon"/> -->
+    <link href="css/style.css" rel="stylesheet" media="screen">
+    <link href="css/animate.css" rel="stylesheet" media="screen">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/all.css" integrity="sha384-3AB7yXWz4OeoZcPbieVW64vVXEwADiYyAEhwilzWsLw+9FgqpyjjStpPnpBO8o8S" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <!-- END OF CSS -->
+
+    <!-- SCRIPT -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.js"></script>
+    <!-- END OF SCRIPT -->
+<body>
+    <header>
+        <div class="container-fluid header_background">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-7 col-md-7 col-sm-4 col-xs-4">
+                        <div class="header__local">
+                            <div class="headerCover header__localization">               
+                                <div id="lang-menu">
+                                    <div>RU</div>
+                                    <ul>
+                                      <li>RU</li>
+                                      <li>EN</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="header__phone">
+                                <i class="fas fa-phone"></i>
+                                <a href="#" class="header__phone_number">+38 067 99 88 777</a>
+                            </div>
+                            <div class="header__mail">
+                                <i class="far fa-envelope"></i>
+                                <a href="#" class="header__mail_text">robinzone@gmail.com</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-5 col-md-5 col-sm-8 col-xs-8">
+                        <div class="headerCover-2">
+                            <div class="personalCabinet__enter">
+                                <i class="far fa-user"></i><a href="#" class="header__enter_text">Вход</a>
+                            </div>
+                            <div class="header__registration">
+                                <i class="far fa-clipboard"></i><a href="#" class="header__registration_text">Регистрация</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid border_line">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                        <div class="header__logo">
+                            <a href="index.html" class="logo"><img src="img/logo.png" class="header__logoImg" alt="#"></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+                        <div class="header__personalCabinet">
+                            <a href="#" class="personalCabinet_title">Личный кабинет </a>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+                        <div class="header__basketSearchCover">
+                            <div class="cntr">
+                                <div class="cntr-innr">
+                                    <label class="search" for="inpt_search">
+                                        <input id="inpt_search" type="text" />
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="basket">
+                                <a href="#" class="header__basket"><img src="img/basket.jpg" class="header__basket_img" alt="#"></a>
+                                <div class="basket__details">
+                                    <div class="basket__item">
+                                        <div class="basket__item_block">
+                                            <img src="img/item1.png" class="basket__item_img" alt="#">
+                                        </div>
+                                        <div class="item_description">
+                                            <i class="far fa-times-circle"></i>
+                                            <a href="#" class="item__title">Кофта “Звезды”</a>
+                                            <p class="item__model"><span>Модель</span><span> 273</span></p>
+                                            <p class="item__quantity"><span>Колличество:</span><span> 1</span></p>
+                                            <p class="item__color"><span>Цвет: </span><span> светло-коричневый, меланж</span></p>
+                                            <p class="item__size"><span>Размер: </span> <span> 122</span></p>
+                                            <p class="item__price"><span>273 </span><span>грн</span></p>
+                                        </div>
+                                    </div>
+                                    <div class="basket__item">
+                                        <div class="basket__item_block">
+                                            <img src="img/item2.png" class="basket__item_img" alt="#">
+                                        </div>
+                                        <div class="item_description">
+                                            <i class="far fa-times-circle"></i>
+                                            <a href="#" class="item__title">Кофта “Звезды”</a>
+                                            <p class="item__model"><span>Модель</span><span> 273</span></p>
+                                            <p class="item__quantity"><span>Колличество:</span><span> 1</span></p>
+                                            <p class="item__color"><span>Цвет: </span><span> светло-коричневый, меланж</span></p>
+                                            <p class="item__size"><span>Размер: </span> <span> 122</span></p>
+                                            <p class="item__price"><span>273 </span><span>грн</span></p>
+                                        </div>
+                                    </div>
+                                    <div class="basket__sum">
+                                        <span class="basket__sum_title">Итого</span>
+                                        <span class="basket__sum_number"> 750грн</span>
+                                    </div>
+                                        <a href="#" class="basket__order_button">Оформить заказ</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <nav>
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                        <div class="mobile">
+                            <a class="mobile-menu-toggle js-toggle-menu hamburger-menu" href="#">
+                                <span class="menu-item"></span>
+                                <span class="menu-item"></span>
+                                <span class="menu-item"></span>
+                            </a>
+                            <nav class="mobile-nav-wrap">
+                                <ul class="mobile-header-nav">
+                                    <li><a href="#">главная</a></li>
+                                    <li><a href="#">о нас</a></li>
+                                    <li><a href="#">интернет-магазин</a></li>
+                                    <li><a href="#">опт</a></li>
+                                    <li><a href="#">эксклюзив</a></li>
+                                    <li><a href="#">представительства</a></li>
+                                    <li><a href="#">распродажа</a></li>
+                                    <li><a href="#">контакты</a></li>
+                                </ul>
+                            </nav>
+                        </div>
+                        <div class="naigation">
+                            <ul class="navigation__block">
+                                <li class="navigation__list"><a href="#" class="navigation__list_title">главная</a></li>
+                                <li class="navigation__list"><a href="#" class="navigation__list_title">о нас</a></li>       
+                                <li class="navigation__list"><a href="#" class="navigation__list_title navigation__list_style">интернет-магазин</a></li>       
+                                <li class="navigation__list"><a href="#" class="navigation__list_title">опт</a></li>
+                                <li class="navigation__list"><a href="#" class="navigation__list_title navigation__list_style">эксклюзив</a></li>           
+                                <li class="navigation__list"><a href="#" class="navigation__list_title">представительства</a></li>       
+                                <li class="navigation__list"><a href="#" class="navigation__list_title navigation__list_style">распродажа</a></li>       
+                                <li class="navigation__list"><a href="#" class="navigation__list_title">контакты</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <section>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                    <div class="mainPageSlider">
+                        <div class="lazy slider mainSlider" data-sizes="50vw">
+                            <div class="slick-slide slide slide--has-caption">
+                                <div class="mainPageSlider_overflow">
+                                    <img src="img/slide1.jpg" alt="#">
+                                    <div class="caption">
+                                        <p class="slideCaption_title">Распродажа весенней коллекции!</p>
+                                        <a href="#" class="slideCaption_button">Купить</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="mainPageSlider_overflow">
+                                    <img src="img/slide1.jpg" alt="#">
+                                     <div class="caption">
+                                        <p class="slideCaption_title">Распродажа весенней коллекции!</p>
+                                        <a href="#" class="slideCaption_button">Купить</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="mainPageSlider_overflow">
+                                    <img src="img/slide1.jpg" alt="#">
+                                     <div class="caption">
+                                        <p class="slideCaption_title">Распродажа весенней коллекции!</p>
+                                        <a href="#" class="slideCaption_button">Купить</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="mainPageSlider_overflow">
+                                    <img src="img/slide1.jpg" alt="#">
+                                     <div class="caption">
+                                        <p class="slideCaption_title">Распродажа весенней коллекции!</p>
+                                       <a href="#" class="slideCaption_button">Купить</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="container-fluid border_line">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                        <a href="#" class="girls_collection"><img src="img/girls_collection.jpg" class="girls_collection_img" alt="#"></a>
+                        <a href="#" class="boys_collection"><img src="img/boys_collection.jpg" class="boys_collection_img" alt="#"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                    <div class="novelties">
+                        <h2 class="novelties_title">Новинки</h2>
+                    </div>
+                    <div class="regular slider noveltiesSlider">
+                        <div>
+                            <div class="noveltiesItem">
+                               <a href="#" class="itemEnter"> <img src="img/item3.png" alt="#"></a>
+                                <div class="noveltiesSlider__caption">
+                                    <a href="#"><i class="fas fa-exchange-alt"></i></a>
+                                    <a href="#"><i class="far fa-heart"></i></a>
+                                    <span class="look"><i class="fas fa-eye"></i></span>
+                                    <a href="#" class="noveltiesSlider__buy_now"><i class="fas fa-shopping-cart"></i></a>
+                                    <p class="slideCaption_title">Костюм <span class="slideCaption_title_name">Follow Dreams </span>
+                                        <span class="slideCaption_title_model">модель 35698</span>
+                                    </p>
+                                    <ul class="slideSizes">
+                                        <li class="sizesList"><span class="sizeColor">80</span></li>
+                                        <li class="sizesList"><span class="sizeColor">86</span></li>
+                                        <li class="sizesList"><span class="sizeColor">92</span></li>
+                                        <li class="sizesList"><span class="sizeColor">98</span></li>
+                                    </ul>
+                                    <p class="sliderPrice">136.00 грн</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="noveltiesItem">
+                                <a href="#" class="itemEnter"><img src="img/item4.png" alt="#"></a>
+                                <div class="noveltiesSlider__caption">
+                                    <a href="#"><i class="fas fa-exchange-alt"></i></a>
+                                    <a href="#"><i class="far fa-heart"></i></a>
+                                    <span class="look"><i class="fas fa-eye"></i></span>
+                                    <a href="#" class="noveltiesSlider__buy_now"><i class="fas fa-shopping-cart"></i></a>
+                                    <p class="slideCaption_title">Костюм <span class="slideCaption_title_name">Follow Dreams </span>
+                                        <span class="slideCaption_title_model">модель 35698</span>
+                                    </p>
+                                    <ul class="slideSizes">
+                                        <li class="sizesList"><span class="sizeColor">80</span></li>
+                                        <li class="sizesList"><span class="sizeColor">86</span></li>
+                                        <li class="sizesList"><span class="sizeColor">92</span></li>
+                                        <li class="sizesList"><span class="sizeColor">98</span></li>
+                                    </ul>
+                                    <p class="sliderPrice">136.00 грн</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="noveltiesItem">
+                                <a href="#" class="itemEnter"><img src="img/item5.png" alt="#"></a>
+                                <div class="noveltiesSlider__caption">
+                                    <a href="#"><i class="fas fa-exchange-alt"></i></a>
+                                    <a href="#"><i class="far fa-heart"></i></a>
+                                    <span class="look"><i class="fas fa-eye"></i></span>
+                                    <a href="#" class="noveltiesSlider__buy_now"><i class="fas fa-shopping-cart"></i></a>
+                                    <p class="slideCaption_title">Костюм <span class="slideCaption_title_name">Follow Dreams </span>
+                                        <span class="slideCaption_title_model">модель 35698</span>
+                                    </p>
+                                    <ul class="slideSizes">
+                                        <li class="sizesList"><span class="sizeColor">80</span></li>
+                                        <li class="sizesList"><span class="sizeColor">86</span></li>
+                                        <li class="sizesList"><span class="sizeColor">92</span></li>
+                                        <li class="sizesList"><span class="sizeColor">98</span></li>
+                                    </ul>
+                                    <p class="sliderPrice">136.00 грн</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="noveltiesItem">
+                               <a href="#" class="itemEnter"> <img src="img/item6.png" alt="#"></a>
+                                <div class="noveltiesSlider__caption">
+                                    <a href="#"><i class="fas fa-exchange-alt"></i></a>
+                                    <a href="#"><i class="far fa-heart"></i></a>
+                                    <span class="look"><i class="fas fa-eye"></i></span>
+                                    <a href="#" class="noveltiesSlider__buy_now"><i class="fas fa-shopping-cart"></i></a>
+                                    <p class="slideCaption_title">Костюм <span class="slideCaption_title_name">Follow Dreams </span>
+                                        <span class="slideCaption_title_model">модель 35698</span>
+                                    </p>
+                                    <ul class="slideSizes">
+                                        <li class="sizesList"><span class="sizeColor">80</span></li>
+                                        <li class="sizesList"><span class="sizeColor">86</span></li>
+                                        <li class="sizesList"><span class="sizeColor">92</span></li>
+                                        <li class="sizesList"><span class="sizeColor">98</span></li>
+                                    </ul>
+                                    <p class="sliderPrice">136.00 грн</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="noveltiesItem">
+                               <a href="#" class="itemEnter"> <img src="img/item4.png" alt="#"></a>
+                                <div class="noveltiesSlider__caption">
+                                    <a href="#"><i class="fas fa-exchange-alt"></i></a>
+                                    <a href="#"><i class="far fa-heart"></i></a>
+                                    <span class="look"><i class="fas fa-eye"></i></span>
+                                    <a href="#" class="noveltiesSlider__buy_now"><i class="fas fa-shopping-cart"></i></a>
+                                    <p class="slideCaption_title">Костюм <span class="slideCaption_title_name">Follow Dreams </span>
+                                        <span class="slideCaption_title_model">модель 35698</span>
+                                    </p>
+                                    <ul class="slideSizes">
+                                        <li class="sizesList"><span class="sizeColor">80</span></li>
+                                        <li class="sizesList"><span class="sizeColor">86</span></li>
+                                        <li class="sizesList"><span class="sizeColor">92</span></li>
+                                        <li class="sizesList"><span class="sizeColor">98</span></li>
+                                    </ul>
+                                    <p class="sliderPrice">136.00 грн</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="noveltiesItem">
+                                <a href="#" class="itemEnter"><img src="img/item5.png" alt="#"></a>
+                                <div class="noveltiesSlider__caption">
+                                    <a href="#"><i class="fas fa-exchange-alt"></i></a>
+                                    <a href="#"><i class="far fa-heart"></i></a>
+                                    <span class="look"><i class="fas fa-eye"></i></span>
+                                    <a href="#" class="noveltiesSlider__buy_now"><i class="fas fa-shopping-cart"></i></a>
+                                    <p class="slideCaption_title">Костюм <span class="slideCaption_title_name">Follow Dreams </span>
+                                        <span class="slideCaption_title_model">модель 35698</span>
+                                    </p>
+                                    <ul class="slideSizes">
+                                        <li class="sizesList"><span class="sizeColor">80</span></li>
+                                        <li class="sizesList"><span class="sizeColor">86</span></li>
+                                        <li class="sizesList"><span class="sizeColor">92</span></li>
+                                        <li class="sizesList"><span class="sizeColor">98</span></li>
+                                    </ul>
+                                    <p class="sliderPrice">136.00 грн</p>
+                                </div>
+                             <div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+<div id="overlay3">
+   <div class="modal_closeLook">
+        <span id="modal_close_closeLook"><i class="fa fa-times" aria-hidden="true"></i></span>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-2 col-md-3 col-sm-3 col-xs-2">
+                        <div class="itemPhotoSlider_cover">
+                            <div class="slider closeLookSlider">
+                                <div>
+                                    <div class="itemImgCover active">
+                                        <img src="img/item2.jpg" alt="#" class="itemSlider_img">
+                                    </div>
+                                </div>
+                                <div>
+                                    <div class="itemImgCover">
+                                        <img src="img/item2.jpg" alt="#" class="itemSlider_img">
+                                    </div>
+                                </div>
+                                <div>
+                                    <div class="itemImgCover">
+                                        <img src="img/item2.jpg" alt="#" class="itemSlider_img">
+                                    </div>
+                                </div>
+                                <div>
+                                    <div class="itemImgCover">
+                                        <img src="img/item2.png" alt="#" class="itemSlider_img">
+                                    </div>
+                                </div>
+                                <div>
+                                    <div class="itemImgCover">
+                                        <img src="img/item2.jpg" alt="#" class="itemSlider_img">
+                                    </div>
+                                </div>
+                                <div>
+                                    <div class="itemImgCover">
+                                        <img src="img/item2.jpg" alt="#" class="itemSlider_img">
+                                    </div>
+                                </div>
+                                <div>
+                                    <div class="itemImgCover">
+                                        <img src="img/item2.png" alt="#" class="itemSlider_img">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-5 col-md-9 col-sm-9 col-xs-10">
+                        <div class="itemPhoto">
+                            <img src="img/item1.jpg" class="itemPhoto_img" alt="#">
+                        </div>
+                    </div>
+                    <div class="col-lg-5 col-md-12 col-sm-12 col-xs-12">
+                        <div class="itemPhoto_characteristics">
+                            <div class="itemPhoto_characteristics_topBlock">
+                                <a href="#" class="itemPhoto_characteristics_title modal_titleHover">Пижама SUPER CARS</a>
+                                <p class="itemPhoto_characteristics_model">Модель: <span>ПЖ 329</span></p>
+                                <span class="item_icons">
+                                     <a href="#"><i class="fab fa-facebook-f"></i></a>
+                                        <a href="#"><i class="fab fa-google-plus-g"></i></a>
+                                        <a href="#"><i class="fas fa-exchange-alt"></i></a>
+                                        <a href="#"><i class="far fa-heart"></i></a>
+                                </span>
+                                <p class="itemPhoto_characteristics_inStock"><i class="fas fa-check"></i><span>В наличии</span></p>
+                                <div class="itemPhoto_characteristics_feedback">
+                                    <span class="itemPhoto_characteristics_feedback_cover"><span>5</span> отзывов(а)</span>
+                                    <p class="stars stars_cover" data-stars="1">
+                                        <svg height="25" width="23" class="star rating" data-rating="1">
+                                        <polygon points="9.9, 1.1, 3.3, 21.78, 19.8, 8.58, 0, 8.58, 16.5, 21.78" style="fill-rule:nonzero;"/>
+                                      </svg>
+                                      <svg height="25" width="23" class="star rating" data-rating="2">
+                                        <polygon points="9.9, 1.1, 3.3, 21.78, 19.8, 8.58, 0, 8.58, 16.5, 21.78" style="fill-rule:nonzero;"/>
+                                      </svg>
+                                      <svg height="25" width="23" class="star rating" data-rating="3">
+                                        <polygon points="9.9, 1.1, 3.3, 21.78, 19.8, 8.58, 0, 8.58, 16.5, 21.78" style="fill-rule:nonzero;"/>
+                                      </svg>
+                                      <svg height="25" width="23" class="star rating" data-rating="4">
+                                        <polygon points="9.9, 1.1, 3.3, 21.78, 19.8, 8.58, 0, 8.58, 16.5, 21.78" style="fill-rule:nonzero;"/>
+                                      </svg>
+                                      <svg height="25" width="23" class="star rating" data-rating="5">
+                                        <polygon points="9.9, 1.1, 3.3, 21.78, 19.8, 8.58, 0, 8.58, 16.5, 21.78" style="fill-rule:nonzero;"/>
+                                      </svg>
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="itemPhoto_characteristics_price">
+                                <span class="itemPhoto_characteristics_oldPrice"><span>300</span> грн</span>
+                                <span class="itemPhoto_characteristics_newPrice"><span>260</span> грн</span>
+                            </div>
+                            <div class="itemPhoto_characteristics_sizes">
+                                <span class="itemPhoto_characteristics_sizesTitle">Размер:</span>
+                                <ul class="slideSizes">
+                                    <li class="sizesList"><span class="sizeColor">80</span></li>
+                                    <li class="sizesList"><span class="sizeColor">86</span></li>
+                                    <li class="sizesList"><span class="sizeColor">92</span></li>
+                                    <li class="sizesList"><span class="sizeColor">98</span></li>
+                                </ul>
+                                <a href="#" class="slideSizes_table">Таблица размеров</a>
+                                <div class="itemPhoto_characteristics_count">
+                                    <form class="cart_item_form">
+                                        <div class="clearfix quantity">
+                                            <input type="text" name="#" value="1" size="1" class="form-control cart-q">
+                                        </div>
+                                        <button class="itemPhoto_characteristics_button">Добавить в корзину</button>
+                                        <span class="itemPhoto_characteristics_order"><i class="far fa-hand-point-up"></i>Заказ в 1 клик</span>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <section>
+        <div class="container">
+            <div class="row"> 
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 aboutUsPadding">
+                    <h1 class="aboutUs__title">О нас</h1>
+                    <div class="aboutUsCover">
+                        <div class="aboutUs__textBlock">
+                            <p class="aboutUs__text">Среди огромного выбора разнообразной модной продукции порой бывает сложно выбрать что-то действительно хорошее и достойное вашего ребенка. Поэтому мы так часто обращаемся к именитых европейских производителей. Так, брендовая детская одежда стоит немного дороже, чем обычную одежду с базаров или безымянных магазинов. Цена, которую мы переплачиваем - это качество и 100% гарантия безопасности, за которую ваш малыш всегда будет благодарен.</p>
+
+                            <p class="aboutUs__text">Никакой уважающий себя бренд не будет экономить на мелочах с целью заработать. Их цена позволяет держать марку на высоком уровне в любых экономических ситуациях. Доверие постоянных клиентов - превыше всего. Наш интернет-магазин специализируется исключительно на известных брендах детской одежды высокого качества. Поэтому покупая одежду у нас - вы покупаете качество по доступной цене.
+                            </p>
+                            <p class="aboutUs__text">Среди огромного выбора разнообразной модной продукции порой бывает сложно выбрать что-то действительно хорошее и достойное вашего ребенка. Поэтому мы так часто обращаемся к именитых европейских производителей. Так, брендовая детская одежда стоит немного дороже, чем обычную одежду с базаров или безымянных магазинов. Цена, которую мы переплачиваем - это качество и 100% гарантия безопасности, за которую ваш малыш всегда будет благодарен.</p>
+
+                            <p class="aboutUs__text">Никакой уважающий себя бренд не будет экономить на мелочах с целью заработать. Их цена позволяет держать марку на высоком уровне в любых экономических ситуациях. Доверие постоянных клиентов - превыше всего. Наш интернет-магазин специализируется исключительно на известных брендах детской одежды высокого качества. Поэтому покупая одежду у нас - вы покупаете качество по доступной цене.
+                            </p>
+                        </div>
+                        <p class="more_info" data-text-swap="спрятать" data-text-original="больше">больше</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="container-fluid subscribeCover">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-5 col-md-5 col-sm-5 col-xs-12">
+                        <div class="subscribe">
+                            <h3 class="subscribe__title">ПОДПИСАТЬСЯ <span class="subscribe__title_style">НА РАССЫЛКУ НОВОСТЕЙ</span></h3>
+                            <p class="subscribe__subTitle">введите свой адрес электронной почты и узнайте о последних новых продуктах и ​​рекламных акциях</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-7 col-md-7 col-sm-7 col-xs-12">
+                        <form class="subscribe__block_form">
+                            <input type="email" placeholder="E-mail" class="subscribe_input" required>
+                            <button class="subscribe_button" id="subscribe">Подписаться</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- MODAL FORM -->
+   
+    <div id="overlay">
+        <div id="modal_form">
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 in-touch-form">
+                    <div class="callbackBlock__form">
+                        <span id="modal_close"><i class="fa fa-times" aria-hidden="true"></i></span>
+                        <h3 class="modalForm__title">Напишите нам</h3>
+                        <p class="modalForm__subTitle">Или оставьте свои контактные данные и мы Вам перезвоним</p>
+                        <form method="post" class="modalForm__form">
+                            <input type="text"  placeholder="Ваше имя" class="modalForm__name" required>
+                            <input type="tel"  placeholder="Телефон" class="modalForm__number" required>
+                            <input type="email"  placeholder="Ваш E-mail" name="filter-date" class="modalForm__mail" id="filter-date" required>
+                            <button id="gratitude" class="modalForm__button">Вызвать</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="overlay2">
+        <div id="gratitude_form">
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 in-touch-form">
+                    <div class="callbackBlock__form warning_form">
+                        <i class="fas fa-exclamation-circle"></i><h3>Спасибо</h3>
+                        <p>Ваш запрос отправлен
+                        введите свой адрес электронной почты и узнайте о последних новых продуктах и ​​рекламных акциях</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- END OF MODAL FORM -->
+    <section>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                    <div class="top_marker"><i class="fas fa-map-marker-alt"></i></div>
+                    <div id="map"></div>
+                    <div class="write_block wow pulse" data-wow-iteration="infinite">
+                        <div class="wrire_blockCover">
+                            <p class="write_us">Напишите нам</p>
+                            <p class="phone_us">Или хотите мы перезвоним вам</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="container-fluid footerBackgroundOne">
+            <div class="container">
+                <div class="row footerPadding">
+                    <div class="col-lg-3 col-md-4 col-sm-4 col-xs-12">
+                        <p class="contacts__title">Контакты</p>
+                        <ul class="contacts__block">
+                            <li class="contacts__list">г. Киев, ул. Кожемяцкая 20-А, <span class="exception">3 этаж, 4 офис</span></li>
+                            <li class="contacts__list contact_style">+38 097 99 88 777</li>
+                            <li class="contacts__list contact_style">robinzone@gmail.com</li>
+                            <li class="contacts__list contact_style">robinzone.com.ua</li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-2 col-md-4 col-sm-4 col-xs-12">
+                        <p class="information">Информация</p>
+                        <ul class="information__block">
+                            <li class="information__list"><a href="#">Про кампанию</a></li>
+                            <li class="information__list"><a href="#">Розница</a></li>
+                            <li class="information__list"><a href="#">Опт</a></li>
+                            <li class="information__list"><a href="#">Представительства</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-2 col-md-4 col-sm-4 col-xs-12">
+                        <p class="support">Поддержка</p>
+                        <ul class="support__block">
+                            <li class="support__list"><a href="#">Статьи</a></li>
+                            <li class="support__list"><a href="#">Доставка и оплата</a></li>
+                            <li class="support__list"><a href="#">Фотогалерея</a></li>
+                            <li class="support__list"><a href="#">Связаться с нами</a></li>
+                            <li class="support__list"><a href="#">О нас</a></li>
+                            <li class="support__list"><a href="#">Отзывы</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-2 col-md-4 col-sm-4 col-xs-12">
+                       <p class="personalCabinet"> Личный кабинет</p>
+                       <ul class="personalCabinet__block">
+                           <li class="personalCabinet__list"><a href="#">Личный кабинет</a></li>
+                           <li class="personalCabinet__list"><a href="#">Личная информация</a></li>
+                           <li class="personalCabinet__list"><a href="#">Адреса</a></li>
+                           <li class="personalCabinet__list"><a href="#">Скидки</a></li>
+                           <li class="personalCabinet__list"><a href="#">История заказов</a></li>
+                       </ul>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-sm-4 col-xs-12">
+                       <p class="social"> Мы в соц.сетях</p>
+                       <ul class="social__block">
+                           <li class="social__list"><a href="#"><i class="fab fa-telegram"></i></a></li>
+                           <li class="social__list"><a href="#"><i class="fab fa-facebook-square"></i></a></li>
+                           <li class="social__list"><a href="#"><i class="fab fa-google-plus"></i></a></li>
+                           <li class="social__list"><a href="#"><i class="fab fa-youtube-square"></i></a></li>
+                           <li class="social__list"><a href="#"><i class="fab fa-instagram"></i></a></li>
+                           <li class="social__list"><a href="#"><i class="fab fa-viber"></i></a></li>
+                       </ul>
+                       <div class="cntr_footer">
+                            <div class="cntr-innr">
+                              <label class="search" for="inpt_search_2">
+                                    <input id="inpt_search_2" type="text" />
+                                </label>
+                            </div>
+                            Поиск
+                        </div>
+                    </div>
+                    <div class="col-lg-12">
+                        <p class="accordion">Контакты</p>
+                            <div class="panel">
+                                <ul class="">
+                                    <li class="">г. Киев, ул. Кожемяцкая 20-А, <span class="">3 этаж, 4 офис</span></li>
+                                    <li class=""><a href="#">+38 097 99 88 777</a></li>
+                                    <li class=""><a href="#">robinzone@gmail.com</a></li>
+                                    <li class=""><a href="#">robinzone.com.ua</a></li>
+                                </ul>
+                            </div>
+                         <p class="accordion">Информация</p>
+                            <div class="panel">
+                                <ul class="">
+                                    <li class=""><a href="#">Про кампанию</a></li>
+                                    <li class=""><a href="#">Розница</a></li>
+                                    <li class=""><a href="#">Опт</a></li>
+                                    <li class=""><a href="#">Представительства</a></li>
+                                </ul>
+                            </div>
+                        <p class="accordion">Поддержка</p>
+                            <div class="panel">
+                                <ul class="">
+                                    <li class=""><a href="#">Личный кабинет</a></li>
+                                    <li class=""><a href="#">Личная информация</a></li>
+                                    <li class=""><a href="#">Адреса</a></li>
+                                    <li class=""><a href="#">Скидки</a></li>
+                                    <li class=""><a href="#">История заказов</a></li>
+                                </ul>
+                            </div>
+                        <p class="accordion">Личный кабинет</p>
+                            <div class="panel">
+                                <ul class="">
+                                    <li class=""><a href="#">Личный кабинет</a></li>
+                                    <li class=""><a href="#">Личная информация</a></li>
+                                    <li class=""><a href="#">Адреса</a></li>
+                                    <li class=""><a href="#">Скидки</a></li>
+                                    <li class=""><a href="#">История заказов</a></li>
+                                </ul>
+                            </div>
+                        <p class="accordion"> Мы в соц.сетях</p>
+                            <div class="panel">
+                                <ul class="social__block">
+                                   <li class="social__list"><a href="#"><i class="fab fa-telegram"></i></a></li>
+                                   <li class="social__list"><a href="#"><i class="fab fa-facebook-square"></i></a></li>
+                                   <li class="social__list"><a href="#"><i class="fab fa-google-plus"></i></a></li>
+                                   <li class="social__list"><a href="#"><i class="fab fa-youtube-square"></i></a></li>
+                                   <li class="social__list"><a href="#"><i class="fab fa-instagram"></i></a></li>
+                                   <li class="social__list"><a href="#"><i class="fab fa-viber"></i></a></li>
+                               </ul>
+                            </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid footerBackgroundTwo">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                        <div class="scrollUp">
+                            <a href="#" onclick="return up()">
+                                <i class="fas fa-angle-up"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12">
+                        <a href="#" class="developed_by">Разработано в <span class="developed_by_style"> Outsourcing Team</span></a>
+                    </div>
+                    <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12">
+                        <div class="payment">
+                            <ul class="payment__block">
+                                <li class="payment_list"><img src="img/masterCard.png" alt="#"></li>
+                                <li class="payment_list"><img src="img/visa.png" alt="#"></li>
+                                <li class="payment_list"><img src="img/novaPoshta.png" alt="#"></li>
+                                <li class="payment_list"><img src="img/meest.png" alt="#"></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAaToMhx8fQewGyukQJx75JijA0zQrUyuQ&callback=initMap" async defer>
+    </script>
+
+    <!--SCRIPT -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script> 
+    <script src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script src="slick/slick.js"></script>
+    <script src="js/jquery.maskedinput.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script>
+        new WOW().init();
+    </script>
+    <!-- END OF SCRIPT -->
+</body>
+</html>

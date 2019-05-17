@@ -1,0 +1,66 @@
+.comingSoon_background {
+  background-image: url(../img/zaglushka.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh; }
+
+.comingSoon_content {
+  text-align: center;
+  margin-top: 10%; }
+  @media (max-width: 1024px) and (max-height: 1440px) {
+    .comingSoon_content {
+      margin-top: 40%; } }
+  @media (max-width: 1024px) and (max-height: 768px) {
+    .comingSoon_content {
+      margin-top: 20%; } }
+  @media (max-width: 824px) and (max-height: 415px) {
+    .comingSoon_content {
+      margin-top: 0%; } }
+  @media (max-width: 768px) and (max-height: 1440px) {
+    .comingSoon_content {
+      margin-top: 50%; } }
+  @media (max-width: 768px) and (max-height: 1024px) {
+    .comingSoon_content {
+      margin-top: 40%; } }
+  @media (max-width: 736px) and (max-height: 414px) {
+    .comingSoon_content {
+      margin-top: 2%; } }
+  @media (max-width: 667px) and (max-height: 375px) {
+    .comingSoon_content {
+      margin-top: 1%; } }
+  .comingSoon_content .header__logoImg {
+    width: 400px; }
+    @media only screen and (max-width: 400px) {
+      .comingSoon_content .header__logoImg {
+        width: 320px; } }
+  .comingSoon_content .comingSoon_knowMore {
+    margin-top: 70px;
+    color: white;
+    font-size: 18px;
+    font-family: 'GillSans-Bold'; }
+    @media (max-width: 568px) and (max-height: 320px) {
+      .comingSoon_content .comingSoon_knowMore {
+        margin-top: 30px; } }
+  .comingSoon_content .subscribe__block_form_comingSoon {
+    position: relative; }
+    .comingSoon_content .subscribe__block_form_comingSoon .subscribe_button {
+      float: none;
+      margin-left: 20px; }
+      @media only screen and (max-width: 991px) {
+        .comingSoon_content .subscribe__block_form_comingSoon .subscribe_button {
+          display: inline-block; } }
+      @media only screen and (max-width: 550px) {
+        .comingSoon_content .subscribe__block_form_comingSoon .subscribe_button {
+          display: block;
+          margin: 30px auto; } }
+  .comingSoon_content .social__block_comingSoon {
+    margin-top: 10%; }
+    @media only screen and (max-width: 767px) {
+      .comingSoon_content .social__block_comingSoon {
+        display: block; } }
+    @media (max-width: 824px) and (max-height: 415px) {
+      .comingSoon_content .social__block_comingSoon {
+        margin-top: 5%; } }
+    @media (max-width: 568px) and (max-height: 320px) {
+      .comingSoon_content .social__block_comingSoon {
+        margin-top: 0%; } }

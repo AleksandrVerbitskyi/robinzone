@@ -1,0 +1,133 @@
+.novelties {
+  margin: 50px;
+  text-align: center; }
+  .novelties .novelties_title {
+    color: #83bd46; }
+
+.noveltiesSlider .slick-dots {
+  position: absolute;
+  bottom: -25px;
+  list-style: none;
+  display: block;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  left: -22px; }
+  .noveltiesSlider .slick-dots li {
+    position: relative;
+    display: inline-block;
+    height: 20px;
+    width: 20px;
+    margin: 0 5px;
+    padding: 0;
+    cursor: pointer; }
+    .noveltiesSlider .slick-dots li button {
+      border: 0;
+      background: transparent;
+      display: block;
+      height: 20px;
+      width: 20px;
+      outline: none;
+      line-height: 0px;
+      font-size: 0px;
+      color: transparent;
+      padding: 5px;
+      cursor: pointer; }
+      .noveltiesSlider .slick-dots li button:hover, .noveltiesSlider .slick-dots li button:focus {
+        outline: none; }
+      .noveltiesSlider .slick-dots li button:before {
+        position: absolute;
+        top: 0;
+        left: 0;
+        content: '\25CF';
+        width: 20px;
+        height: 20px;
+        color: #b9b9b9c9;
+        content: '\25CF';
+        font-size: 20px;
+        line-height: 20px;
+        text-align: center;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale; }
+    .noveltiesSlider .slick-dots li.slick-active button:before {
+      color: #83bd46; }
+
+.noveltiesSlider .slick-prev, .noveltiesSlider .slick-next {
+  background-color: #ffffffdb;
+  width: 60px;
+  height: 60px;
+  border-radius: 30px;
+  -webkit-box-shadow: 0px 0px 14px 0px #b5b3b5;
+  -moz-box-shadow: 0px 0px 14px 0px #b5b3b5;
+  box-shadow: 0px 0px 14px 0px #b5b3b5;
+  color: red;
+  z-index: 3; }
+  .noveltiesSlider .slick-prev:before, .noveltiesSlider .slick-next:before {
+    color: #b9b9b9c9; }
+
+.noveltiesSlider .slick-prev {
+  top: 140px;
+  left: -45px; }
+
+.noveltiesSlider .slick-next {
+  bottom: 90px;
+  right: -40px; }
+
+.noveltiesSlider .slick-slide img {
+  border: 1px solid #ececec;
+  width: 270px;
+  cursor: pointer;
+  position: relative; }
+
+.noveltiesSlider .slick-list {
+  height: 290px; }
+
+.noveltiesSlider .noveltiesSlider__caption {
+  display: none;
+  position: absolute;
+  right: 7px;
+  bottom: -20px;
+  height: 130px;
+  width: 270px;
+  z-index: 2;
+  text-align: center;
+  color: #fff;
+  font-family: 'GillSans-Regular';
+  font-weight: bold;
+  background: #83bd46;
+  border-radius: 20px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  padding: 0px 10px;
+  font-size: 15px; }
+  .noveltiesSlider .noveltiesSlider__caption button {
+    background: #fff;
+    border: none;
+    width: 40px;
+    height: 40px;
+    border-radius: 25px;
+    -webkit-box-shadow: 0px 0px 11px 0px #6b6a6b;
+    -moz-box-shadow: 0px 0px 11px 0px #6b6a6b;
+    box-shadow: 0px 0px 11px 0px #6b6a6b;
+    color: #82bd46;
+    position: relative;
+    top: -25px;
+    margin: 0 5px;
+    outline: none;
+    float: left;
+    font-size: 15px; }
+    .noveltiesSlider .noveltiesSlider__caption button .fas:hover, .noveltiesSlider .noveltiesSlider__caption button .far:hover {
+      color: red; }
+  .noveltiesSlider .noveltiesSlider__caption .noveltiesSlider__buy_now {
+    float: right; }
+  .noveltiesSlider .noveltiesSlider__caption .slideCaption_title {
+    border-bottom: 1px solid #fff;
+    margin: 0;
+    position: relative;
+    top: -5px;
+    padding: 10px; }
+    .noveltiesSlider .noveltiesSlider__caption .slideCaption_title .slideCaption_title_name {
+      text-transform: uppercase; }
+    .noveltiesSlider .noveltiesSlider__caption .slideCaption_title .slideCaption_title_model {
+      display: block; }

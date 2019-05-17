@@ -1,0 +1,46 @@
+.aboutUs__title{
+	text-align: center;
+	text-transform: uppercase;
+	font-family: 'GillSans-Regular'; 
+	font-weight: bold;
+	color: $textColor_alternative;
+}
+.aboutUs__textBlock{
+	height: 175px;
+    overflow: hidden;
+	.aboutUs__text{
+		color: $textColor_alternative;
+		font-family: 'GillSans-Regular'; 
+	}
+}
+.more_info{
+	position: relative;
+	text-align: right;
+	font-family: 'GillSans-Regular';
+	margin-right: 0;
+	font-weight: bold;
+	cursor: pointer;
+	@media only screen and (max-width: 800px) {
+		margin-right: 30px;
+	}
+	&:after{
+		background-image: url(../img/more.png);
+	    content: '';
+	    position: absolute;
+	    width: 90px;
+	    height: 65px;
+	    background-position: center;
+	    background-size: contain;
+	    bottom: -35px;
+	     right: -30px;
+	    background-repeat: no-repeat;
+	}
+}
+.aboutUsCover{
+	margin-bottom: 45px;
+	padding-top: 30px;
+	height: 75%;
+}
+.aboutUsPadding{
+	margin-top: 65px;
+}

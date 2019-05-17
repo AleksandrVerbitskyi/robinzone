@@ -1,0 +1,84 @@
+.pagination-container {
+  margin: 20px auto;
+  text-align: center; }
+  .pagination-container .pagination {
+    position: relative; }
+    .pagination-container .pagination a {
+      position: relative;
+      display: inline-block;
+      color: #565556;
+      text-decoration: none;
+      font-size: 1.2rem;
+      width: 30px;
+      height: 30px;
+      font-family: 'GillSans-Regular'; }
+      .pagination-container .pagination a:before {
+        z-index: -1;
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        content: "";
+        top: 0;
+        left: 0;
+        background-color: #83bd46;
+        border-radius: 24px;
+        -webkit-transform: scale(0);
+        -ms-transform: scale(0);
+        transform: scale(0);
+        -webkit-transition: all 0.2s;
+        -o-transition: all 0.2s;
+        transition: all 0.2s; }
+
+.pagination a:hover:before,
+.pagination a .pagination-active:before {
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1); }
+
+.pagination .pagination-active:before {
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1); }
+
+.pagination-newer {
+  margin-right: 5px; }
+  .pagination-newer:before {
+    display: none; }
+  .pagination-newer .fas {
+    color: #d2d2d2; }
+    .pagination-newer .fas:hover {
+      color: #80bd46; }
+
+.pagination-older {
+  margin-left: 5px; }
+  .pagination-older:before {
+    display: none; }
+  .pagination-older .fas {
+    color: #d2d2d2; }
+    .pagination-older .fas:hover {
+      color: #80bd46; }
+
+.pagination-cover #pagination {
+  display: block;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center; }
+  .pagination-cover #pagination ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: block; }
+    .pagination-cover #pagination ul li {
+      color: #fff;
+      display: inline-block;
+      cursor: pointer; }
+      .pagination-cover #pagination ul li a {
+        background-color: #444B6E;
+        padding: 5px 10px;
+        border: 2px solid blue;
+        border-right: 0;
+        cursor: pointer; }
+        .pagination-cover #pagination ul li a:hover {
+          cursor: pointer; }
+      .pagination-cover #pagination ul li:active a {
+        background-color: red; }

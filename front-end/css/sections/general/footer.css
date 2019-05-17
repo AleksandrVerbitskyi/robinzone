@@ -1,0 +1,137 @@
+.footerBackgroundOne {
+  background-color: #343434; }
+
+.footerBackgroundTwo {
+  background-color: #84BD48; }
+
+.information,
+.contacts__title,
+.support,
+.personalCabinet,
+.social {
+  color: #fff;
+  font-family: 'GillSans-Regular';
+  font-weight: bold;
+  padding-top: 40px;
+  text-transform: uppercase; }
+
+.contacts__block,
+.information__block,
+.contacts__list,
+.support__block,
+.personalCabinet__block,
+.social__block {
+  line-height: 35px;
+  font-size: 15px;
+  font-family: 'GillSans-Light'; }
+  .contacts__block .contacts__list,
+  .contacts__block .information__list,
+  .contacts__block .support__list,
+  .contacts__block .personalCabinet__list,
+  .contacts__block .social__list,
+  .information__block .contacts__list,
+  .information__block .information__list,
+  .information__block .support__list,
+  .information__block .personalCabinet__list,
+  .information__block .social__list,
+  .contacts__list .contacts__list,
+  .contacts__list .information__list,
+  .contacts__list .support__list,
+  .contacts__list .personalCabinet__list,
+  .contacts__list .social__list,
+  .support__block .contacts__list,
+  .support__block .information__list,
+  .support__block .support__list,
+  .support__block .personalCabinet__list,
+  .support__block .social__list,
+  .personalCabinet__block .contacts__list,
+  .personalCabinet__block .information__list,
+  .personalCabinet__block .support__list,
+  .personalCabinet__block .personalCabinet__list,
+  .personalCabinet__block .social__list,
+  .social__block .contacts__list,
+  .social__block .information__list,
+  .social__block .support__list,
+  .social__block .personalCabinet__list,
+  .social__block .social__list {
+    color: #fff; }
+    .contacts__block .contacts__list a,
+    .contacts__block .information__list a,
+    .contacts__block .support__list a,
+    .contacts__block .personalCabinet__list a,
+    .contacts__block .social__list a,
+    .information__block .contacts__list a,
+    .information__block .information__list a,
+    .information__block .support__list a,
+    .information__block .personalCabinet__list a,
+    .information__block .social__list a,
+    .contacts__list .contacts__list a,
+    .contacts__list .information__list a,
+    .contacts__list .support__list a,
+    .contacts__list .personalCabinet__list a,
+    .contacts__list .social__list a,
+    .support__block .contacts__list a,
+    .support__block .information__list a,
+    .support__block .support__list a,
+    .support__block .personalCabinet__list a,
+    .support__block .social__list a,
+    .personalCabinet__block .contacts__list a,
+    .personalCabinet__block .information__list a,
+    .personalCabinet__block .support__list a,
+    .personalCabinet__block .personalCabinet__list a,
+    .personalCabinet__block .social__list a,
+    .social__block .contacts__list a,
+    .social__block .information__list a,
+    .social__block .support__list a,
+    .social__block .personalCabinet__list a,
+    .social__block .social__list a {
+      text-decoration: none;
+      color: #fff;
+      font-family: 'GillSans-Light';
+      font-size: 15px; }
+      .contacts__block .contacts__list a:hover,
+      .contacts__block .information__list a:hover,
+      .contacts__block .support__list a:hover,
+      .contacts__block .personalCabinet__list a:hover,
+      .contacts__block .social__list a:hover,
+      .information__block .contacts__list a:hover,
+      .information__block .information__list a:hover,
+      .information__block .support__list a:hover,
+      .information__block .personalCabinet__list a:hover,
+      .information__block .social__list a:hover,
+      .contacts__list .contacts__list a:hover,
+      .contacts__list .information__list a:hover,
+      .contacts__list .support__list a:hover,
+      .contacts__list .personalCabinet__list a:hover,
+      .contacts__list .social__list a:hover,
+      .support__block .contacts__list a:hover,
+      .support__block .information__list a:hover,
+      .support__block .support__list a:hover,
+      .support__block .personalCabinet__list a:hover,
+      .support__block .social__list a:hover,
+      .personalCabinet__block .contacts__list a:hover,
+      .personalCabinet__block .information__list a:hover,
+      .personalCabinet__block .support__list a:hover,
+      .personalCabinet__block .personalCabinet__list a:hover,
+      .personalCabinet__block .social__list a:hover,
+      .social__block .contacts__list a:hover,
+      .social__block .information__list a:hover,
+      .social__block .support__list a:hover,
+      .social__block .personalCabinet__list a:hover,
+      .social__block .social__list a:hover {
+        color: #84BD48; }
+  .contacts__block .exception,
+  .information__block .exception,
+  .contacts__list .exception,
+  .support__block .exception,
+  .personalCabinet__block .exception,
+  .social__block .exception {
+    display: block; }
+
+.social__block .social__list {
+  display: inline-block; }
+  .social__block .social__list a {
+    font-size: 40px;
+    margin: 0 10px; }
+    .social__block .social__list a i {
+      margin: 0 10px 25px 0px; }

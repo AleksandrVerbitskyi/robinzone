@@ -1,0 +1,32 @@
+.breadCrumbsBorder{
+	border-top: 2px solid #f1f1f1;
+}
+.breadCrumbs{
+	margin-top: 15px;
+	.breadCrumbs__block{
+		display: block;
+		margin-bottom: 5px;
+		.breadCrumbs__list{
+			display: inline-block;
+			.breadCrumbs__item{
+				text-decoration: none;
+				color: #8c8c8c;
+    			font-size: 12px;
+    			position: relative;
+			}
+			&:after{
+				content: '/';
+				position: relative;
+				top: 0;
+				right: 0;
+				font-size: 12px;
+				color: #8c8c8c;
+			}
+			&:last-child{
+				&:after{
+					display: none;
+				}
+			}
+		}
+	}
+}

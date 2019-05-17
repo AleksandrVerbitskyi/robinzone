@@ -1,0 +1,26 @@
+.fabricSizes{
+	.fabricSizesTable_cover{
+	 @media only screen and (max-width: 768px) {
+		overflow-x: scroll;
+	}
+		.fabricSizesTable{
+			font-family: 'GillSans-Regular';
+		    font-size: 16px;
+		    text-align: center;
+		    width: 700px;
+		    margin: 0 auto;
+		    line-height: 41px;
+		    color: #5e5e5e;
+		    border: 1px solid #c0d4ae;
+			.fabricSizesTable_caption{
+				font-size: 18px;
+			}
+			tr:first-child{
+				line-height: 65px;
+			}
+			tr:nth-child(even){
+				background: #AAD086;
+			}
+		}
+	}
+}

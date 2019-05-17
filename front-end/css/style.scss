@@ -1,0 +1,153 @@
+/* BASE
+================================================= */
+@import 'base/fonts.scss';
+@import 'base/style-reset.scss';
+@import 'base/variables.scss';
+
+
+
+
+/* GENERAL SECTIONS
+================================================= */
+@import 'sections/general/header.scss';
+@import 'sections/general/footer.scss';
+@import 'sections/general/titles.scss';
+@import 'sections/general/breadCrumbs.scss';
+
+
+/* MAIN PAGE
+================================================= */
+@import 'sections/main_page/header_slider.scss';
+@import 'sections/main_page/categories.scss';
+@import 'sections/main_page/novelties.scss';
+@import 'sections/main_page/about_us.scss';
+@import 'sections/main_page/subscribe.scss';
+@import 'sections/main_page/map.scss';
+
+
+/* CATALOG
+================================================= */
+@import 'sections/catalog/pagination.scss';
+@import 'sections/catalog/filtration.scss';
+@import 'sections/catalog/catalog_photos.scss';
+@import 'sections/catalog/sorting.scss';
+
+
+/* NEWS
+================================================= */
+@import 'sections/news/news_general.scss';
+@import 'sections/news/news_details.scss';
+
+
+/* COMINGSOON
+================================================= */
+@import 'sections/comingSoon/comingSoon.scss';
+
+
+/* CART
+================================================= */
+@import 'sections/cart/cart.scss';
+
+
+/* REGISTRATION
+================================================= */
+@import 'sections/registration/registration.scss';
+
+
+/* ITEM
+================================================= */
+@import 'sections/item/item.scss';
+
+
+/* ACCOUNT
+================================================= */
+@import 'sections/account/account.scss';
+
+
+/* ITEM
+================================================= */
+@import 'sections/forgotPassword/forgotPassword.scss';
+
+
+/* 404
+================================================= */
+@import 'sections/404/404.scss';
+
+
+/* SITEMAP
+================================================= */
+@import 'sections/sitemap/sitemap.scss';
+
+
+/* CONTACTS
+================================================= */
+@import 'sections/contacts/contacts.scss';
+
+
+/* REPRESENTATIVES
+================================================= */
+@import 'sections/representatives/representatives.scss';
+
+
+/* SEARCH_PAGE
+================================================= */
+@import 'sections/search_page/search_page.scss';
+
+
+/* DELIVERY
+================================================= */
+@import 'sections/delivery/delivery.scss';
+
+
+/* COMPARE
+================================================= */
+@import 'sections/compare/compare.scss';
+
+
+/* RETURN
+================================================= */
+@import 'sections/return/return.scss';
+
+
+
+/* BONUS
+================================================= */
+@import 'sections/bonus/bonus.scss';
+
+
+/* ADRESS
+================================================= */
+@import 'sections/adress/adress.scss';
+
+
+/* PERSONAL_DATA
+================================================= */
+@import 'sections/personal_data/personal_data.scss';
+
+
+/* WISHLIST
+================================================= */
+@import 'sections/wishlist/wishlist.scss';
+
+
+/* HISTORY
+================================================= */
+@import 'sections/history/history.scss';
+
+
+/* PASSWORD
+================================================= */
+@import 'sections/password/password.scss';
+
+
+/* ABOUTUS
+================================================= */
+@import 'sections/aboutUs/aboutUs.scss';
+
+
+/* CLIENTS
+================================================= */
+@import 'sections/clients/fabric.scss';
+@import 'sections/clients/fabricQuality.scss';
+@import 'sections/clients/fabricCare.scss';
+@import 'sections/clients/fabricSizes.scss';
